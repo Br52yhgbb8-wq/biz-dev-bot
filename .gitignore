@@ -1,0 +1,31 @@
+# Backend
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/*.db
+backend/gmail_credentials.json
+backend/token.json
+backend/.env
+
+# Frontend
+frontend/.next/
+frontend/node_modules/
+frontend/*.tsbuildinfo
+frontend/out/
+frontend/.pnpm-store/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Unused top-level entries (legacy)
+/app/
+/outputs/
+/work/

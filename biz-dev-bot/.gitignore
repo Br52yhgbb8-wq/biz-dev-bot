@@ -1,0 +1,17 @@
+# Frontend build artifacts
+frontend/node_modules/
+frontend/.next/
+frontend/*.tsbuildinfo
+frontend/out/
+
+# Backend
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/*.db
+backend/gmail_credentials.json
+backend/token.json
+backend/.env
+
+# OS
+.DS_Store

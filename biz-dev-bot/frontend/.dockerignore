@@ -1,0 +1,10 @@
+node_modules
+.next
+.git
+*.md
+.env
+Dockerfile
+.dockerignore
+pnpm-lock.yaml
+tsconfig.tsbuildinfo
+next-env.d.ts
