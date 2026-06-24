@@ -1,0 +1,22 @@
+[
+  "tests/test_auth.py::test_auth_token_works_for_all_endpoints",
+  "tests/test_auth.py::test_expired_token_rejected",
+  "tests/test_auth.py::test_login",
+  "tests/test_auth.py::test_login_nonexistent",
+  "tests/test_auth.py::test_login_wrong_password",
+  "tests/test_auth.py::test_protected_route_needs_auth",
+  "tests/test_auth.py::test_register",
+  "tests/test_auth.py::test_register_duplicate",
+  "tests/test_contacts.py::test_create_contact",
+  "tests/test_contacts.py::test_create_contact_requires_auth",
+  "tests/test_contacts.py::test_delete_contact",
+  "tests/test_contacts.py::test_get_contact",
+  "tests/test_contacts.py::test_get_contact_not_found",
+  "tests/test_contacts.py::test_list_contacts",
+  "tests/test_contacts.py::test_search_contacts",
+  "tests/test_contacts.py::test_update_contact",
+  "tests/test_pipelines.py::test_create_pipeline",
+  "tests/test_pipelines.py::test_delete_pipeline",
+  "tests/test_pipelines.py::test_list_pipelines_by_stage",
+  "tests/test_pipelines.py::test_update_stage"
+]
