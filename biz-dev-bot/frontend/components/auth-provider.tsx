@@ -6,7 +6,7 @@ import { AuthState, getStoredAuth, clearAuth, login as apiLogin, register as api
 
 interface AuthContextType extends AuthState {
   login: (username: string, password: string) => Promise<void>
-  register: (username: string, password: string) => Promise<void>
+  register: (username: string, password: string, inviteCode?: string) => Promise<void>
   logout: () => void
   loading: boolean
 }
@@ -29,7 +29,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     router.push("/dashboard")
   }, [router])
 
-  const register = useCallback(async (username: string, password: string) => {
+  const register = useCallback(async (username: string, password: string, inviteCode?: string) => {
     const res = await apiRegister(username, password)
     setState({ token: res.access_token, username, isAuthenticated: true })
     router.push("/dashboard")

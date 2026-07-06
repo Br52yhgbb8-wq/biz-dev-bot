@@ -1,0 +1,5 @@
+# Backup schedule -- install via `crontab scripts/backup.cron`
+#
+# Example: daily at 03:00, keep last 30 dumps on disk
+#
+# 0 3 * * * cd /path/to/biz-dev-bot && scripts/backup.sh backups && find backups -name 'bizdev_*.sql.gz' -mtime +30 -delete

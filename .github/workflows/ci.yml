@@ -7,6 +7,31 @@ on:
     branches: [main]
 
 jobs:
+  frontend-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install pnpm
+        run: npm install -g pnpm@latest
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build frontend
+        env:
+          NEXT_PUBLIC_API_URL: "http://localhost:8000"
+        run: pnpm build
+
   test:
     runs-on: ubuntu-latest
     defaults:
@@ -34,6 +59,35 @@ jobs:
           DATABASE_URL: "sqlite+aiosqlite:///./test.db"
         run: |
           pytest -v --tb=short
+
+  migrations-check:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: backend/requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Alembic migration check (SQLite)
+        env:
+          DEV_MODE: "true"
+          DEV_DATABASE_URL: "sqlite+aiosqlite:///./check_migrations.db"
+        run: |
+          alembic upgrade head
+          alembic check
 
   lint:
     runs-on: ubuntu-latest

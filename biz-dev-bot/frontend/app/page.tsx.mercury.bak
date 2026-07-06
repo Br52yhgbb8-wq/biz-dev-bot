@@ -1,0 +1,162 @@
+"use client"
+
+import { useRouter } from "next/navigation"
+import { Users, Mail, Linkedin, SendHorizontal, ArrowRight } from "lucide-react"
+import { Button } from "@/components/ui/button"
+
+export default function LandingPage() {
+  const router = useRouter()
+
+  const scrollToFeatures = () => {
+    document.getElementById("features")?.scrollIntoView({ behavior: "smooth" })
+  }
+
+  const accent = "#7A899C"
+  const accentHover = "#667588"
+
+  return (
+    <div className="min-h-screen bg-white">
+      {/* ── Navigation (unchanged) ── */}
+      <nav className="fixed top-0 left-0 right-0 z-50 h-16 bg-white/80 backdrop-blur-md border-b border-[#f2f2f7]">
+        <div className="max-w-[1280px] mx-auto px-6 lg:px-12 h-full flex items-center justify-between">
+          <div className="flex items-center">
+            <img src="/images/logo.svg" alt="Mercury" className="h-8 w-auto" />
+          </div>
+          <div className="flex items-center gap-6">
+            <button
+              onClick={scrollToFeatures}
+              className="text-sm text-[#86868b] hover:text-[#1d1d1f] transition-colors bg-transparent border-none cursor-pointer"
+            >
+              功能
+            </button>
+            <Button variant="ghost" onClick={() => router.push("/login")}>
+              登录
+            </Button>
+          </div>
+        </div>
+      </nav>
+
+      {/* ── Hero ── */}
+      <section className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+        {/* Background video — centered, full-bleed */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          <video
+            autoPlay
+            muted
+            playsInline
+            className="w-full h-full object-cover"
+          >
+            <source src="/images/hero-bg.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        {/* Very subtle overlay to keep text readable */}
+        <div className="absolute inset-0 bg-white/20" />
+
+        {/* Centered content */}
+        <div className="relative z-10 text-center max-w-[600px] px-6 py-20 lg:py-32">
+          <div className="mb-5 opacity-0 animate-fade-in-up">
+            <span
+              className="inline-flex items-center h-6 px-3 text-[11px] font-medium tracking-[0.5px] uppercase rounded-full"
+              style={{ backgroundColor: "#F0F0F2", color: accent }}
+            >
+              Project Mercury
+            </span>
+          </div>
+          <div className="flex items-center justify-center opacity-0 animate-fade-in-up">
+            <img src="/images/logo.svg" alt="Mercury" className="h-28 lg:h-36 w-auto" />
+          </div>
+          <p className="text-lg text-[#86868b] leading-relaxed mb-10 max-w-[440px] mx-auto opacity-0 animate-fade-in-delayed">
+            集成 CRM、Gmail、LinkedIn，让你的业务开发流程自动运转
+          </p>
+          <div className="flex items-center justify-center gap-3 opacity-0 animate-fade-in-slow">
+            <button
+              onClick={() => router.push("/login")}
+              className="inline-flex items-center gap-2 h-12 px-7 text-base font-medium text-white rounded-xl border-none cursor-pointer transition-all duration-200 active:scale-[0.98]"
+              style={{ backgroundColor: accent }}
+              onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = accentHover)}
+              onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = accent)}
+            >
+              开始使用 <ArrowRight className="w-4 h-4" />
+            </button>
+            <button
+              onClick={scrollToFeatures}
+              className="inline-flex items-center gap-1.5 h-12 px-7 text-base font-medium rounded-xl border cursor-pointer transition-all duration-200"
+              style={{ color: accent, borderColor: "#E5E5EA" }}
+            >
+              了解更多
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Features ── */}
+      <section id="features" className="py-24 lg:py-32" style={{ backgroundColor: "#F8F8FA" }}>
+        <div className="max-w-[1280px] mx-auto px-6 lg:px-12">
+          <div className="text-center mb-16">
+            <h2 className="text-[32px] lg:text-[36px] font-bold text-[#1d1d1f] tracking-[-0.5px] mb-4">
+              核心功能
+            </h2>
+            <p className="text-base" style={{ color: "#86868B" }}>
+              一站式管理你的业务开发全流程
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-[900px] mx-auto">
+            {[
+              {
+                icon: Users,
+                title: "CRM 管理",
+                desc: "管理联系人、追踪商机、记录活动时间线，所有客户数据一目了然。",
+              },
+              {
+                icon: Mail,
+                title: "Gmail 集成",
+                desc: "收发邮件、自动同步收件箱、将邮件关联到联系人记录。",
+              },
+              {
+                icon: Linkedin,
+                title: "LinkedIn 获客",
+                desc: "搜索潜在客户、提取资料、批量导入 CRM，自动化社交获客。",
+              },
+              {
+                icon: SendHorizontal,
+                title: "营销活动",
+                desc: "创建多步骤触达序列，定时跟进，用数据驱动转化。",
+              },
+            ].map((feature) => {
+              const Icon = feature.icon
+              return (
+                <div
+                  key={feature.title}
+                  className="bg-white rounded-2xl border p-8 transition-all duration-300"
+                  style={{ borderColor: "#E5E5EA" }}
+                >
+                  <div
+                    className="w-10 h-10 rounded-xl flex items-center justify-center mb-5"
+                    style={{ backgroundColor: "#F0F0F2" }}
+                  >
+                    <Icon className="w-5 h-5" style={{ color: accent }} />
+                  </div>
+                  <h3 className="text-lg font-semibold text-[#1d1d1f] mb-2">{feature.title}</h3>
+                  <p className="text-sm leading-relaxed" style={{ color: "#86868B" }}>{feature.desc}</p>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+
+      {/* ── Footer ── */}
+      <footer className="py-8 border-t" style={{ borderColor: "#F0F0F2" }}>
+        <div className="max-w-[1280px] mx-auto px-6 lg:px-12 flex items-center justify-between">
+          <div className="flex items-center">
+            <img src="/images/logo.svg" alt="Mercury" className="h-5 w-auto opacity-40" />
+          </div>
+          <p className="text-sm" style={{ color: "#C7C7CC" }}>© 2026 Mercury</p>
+        </div>
+      </footer>
+    </div>
+  )
+}

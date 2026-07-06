@@ -29,7 +29,7 @@ async def list_contact_activities(
     contact_id: uuid.UUID,
     activity_type: str = Query(None),
     skip: int = Query(0, ge=0),
-    limit: int = Query(50, ge=1, le=100),
+    limit: int = Query(20, ge=1, le=50),
     svc: ActivityService = Depends(get_activity_service),
     _: str = Depends(get_current_user),
 ):
@@ -45,7 +45,7 @@ async def list_activities(
     activity_type: str = Query(None),
     days: int = Query(None, ge=1, le=365),
     skip: int = Query(0, ge=0),
-    limit: int = Query(50, ge=1, le=100),
+    limit: int = Query(20, ge=1, le=50),
     svc: ActivityService = Depends(get_activity_service),
     _: str = Depends(get_current_user),
 ):
@@ -98,3 +98,25 @@ async def delete_activity(
     deleted = await svc.delete(activity_id)
     if not deleted:
         raise HTTPException(status_code=404, detail="Activity not found")
+
+
+@router.get("/api/activities/calendar")
+async def calendar_activities(
+    year: int,
+    month: int,
+    activity_type: str = Query(None),
+    svc: ActivityService = Depends(get_activity_service),
+    _: str = Depends(get_current_user),
+):
+    """Get activities for a specific month (calendar view)."""
+    import calendar as cal_mod
+    from datetime import datetime, timezone
+
+    date_from = datetime(year, month, 1, tzinfo=timezone.utc)
+    last_day = cal_mod.monthrange(year, month)[1]
+    date_to = datetime(year, month, last_day, 23, 59, 59, tzinfo=timezone.utc)
+
+    items = await svc.list_by_date_range(
+        date_from, date_to, activity_type=activity_type
+    )
+    return items

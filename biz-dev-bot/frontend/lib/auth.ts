@@ -35,8 +35,8 @@ export async function login(username: string, password: string) {
   return res
 }
 
-export async function register(username: string, password: string) {
-  const res = await api.auth.register({ username, password })
+export async function register(username: string, password: string, invite_code?: string) {
+  const res = await api.auth.register({ username, password, invite_code })
   storeAuth(res.access_token, username)
   return res
 }

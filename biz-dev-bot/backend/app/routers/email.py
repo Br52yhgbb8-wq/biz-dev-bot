@@ -76,7 +76,7 @@ async def oauth_callback(
 
 @router.get("/threads", response_model=list[GmailThreadResponse])
 async def list_threads(
-    max_results: int = Query(20, ge=1, le=100),
+    max_results: int = Query(15, ge=1, le=50),
     _: str = Depends(get_current_user),
 ):
     """List Gmail inbox threads."""
@@ -146,7 +146,7 @@ async def send_email(
 
 @router.post("/sync")
 async def sync_emails(
-    max_results: int = 50,
+    max_results: int = 30,
     _: str = Depends(get_current_user),
 ):
     """Trigger Gmail inbox sync."""

@@ -51,3 +51,21 @@ class ContactResponse(BaseModel):
 class ContactListResponse(BaseModel):
     items: list[ContactResponse]
     total: int
+class BatchTagRequest(BaseModel):
+    contact_ids: list[uuid.UUID]
+    tags: list[str]
+    action: str = "add"  # "add" or "remove"
+
+
+class BatchIdsRequest(BaseModel):
+    contact_ids: list[uuid.UUID]
+
+
+class BatchDeleteRequest(BaseModel):
+    contact_ids: list[uuid.UUID]
+
+
+class BatchOperationResponse(BaseModel):
+    success: bool
+    count: int
+    message: str

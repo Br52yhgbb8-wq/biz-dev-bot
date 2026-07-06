@@ -13,6 +13,7 @@ from app.schemas.linkedin import (
     LinkedInStatusResponse,
 )
 from app.services.linkedin import linkedin_browser, PLAYWRIGHT_AVAILABLE
+from app.services.notification import NotificationService
 
 router = APIRouter(prefix="/api/linkedin", tags=["linkedin"])
 
@@ -107,13 +108,21 @@ async def linkedin_profile(
 @router.post("/export", response_model=LinkedInExportResponse)
 async def linkedin_export(
     req: LinkedInExportRequest,
-    _: str = Depends(get_current_user),
+    current_user: str = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
 ):
     """Export LinkedIn search results to CRM contacts."""
     try:
         results = [r.model_dump() for r in req.results]
         result = await linkedin_browser.export_to_crm(results, db)
+        # Create notification
+        imported = result.get("imported", 0)
+        await NotificationService(db).create(
+            title=f"LinkedIn 导入完成",
+            message=f"已导入 {imported} 位联系人",
+            notification_type="success",
+            username=current_user,
+        )
         return LinkedInExportResponse(**result)
     except Exception as e:
         raise HTTPException(

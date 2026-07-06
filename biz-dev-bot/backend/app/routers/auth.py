@@ -1,17 +1,19 @@
 """Auth router — database-backed user registration, login, and token verification.
 
-Replaces the original in-memory dict store with the User SQLAlchemy model.
+Includes invite-code protection for registration and rate limiting on login.
 """
 
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, status, Request
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from pydantic import BaseModel
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth.jwt import create_access_token, decode_access_token, hash_password, verify_password
+from app.config import settings
 from app.database import get_db
-from app.models.user import User
+from app.models.user import User, UserRole
+from app.rate_limiter import rate_limiter
 
 router = APIRouter(prefix="/api/auth", tags=["auth"])
 security = HTTPBearer()
@@ -20,6 +22,7 @@ security = HTTPBearer()
 class RegisterRequest(BaseModel):
     username: str
     password: str
+    invite_code: str = ""
 
 
 class LoginRequest(BaseModel):
@@ -32,9 +35,29 @@ class TokenResponse(BaseModel):
     token_type: str = "bearer"
 
 
+def _parse_rate_limit(rule: str) -> tuple[int, int]:
+    """Parse a rate-limit rule like '5/minute' into (max_requests, window_seconds)."""
+    parts = rule.split("/")
+    max_req = int(parts[0])
+    unit = parts[1] if len(parts) > 1 else "minute"
+    window = {"minute": 60, "second": 1, "hour": 3600}.get(unit, 60)
+    return max_req, window
+
+
 @router.post("/register", response_model=TokenResponse)
 async def register(req: RegisterRequest, db: AsyncSession = Depends(get_db)):
-    """Register a new user. Username must be unique."""
+    """Register a new user. Username must be unique.
+
+    If INVITE_CODE is configured in environment, the invite_code field is
+    required and must match.
+    """
+    # Check invite code if configured
+    if settings.INVITE_CODE and req.invite_code != settings.INVITE_CODE:
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Invalid invite code. Registration is invite-only.",
+        )
+
     result = await db.execute(select(User).where(User.username == req.username))
     if result.scalar_one_or_none():
         raise HTTPException(
@@ -55,8 +78,20 @@ async def register(req: RegisterRequest, db: AsyncSession = Depends(get_db)):
 
 
 @router.post("/login", response_model=TokenResponse)
-async def login(req: LoginRequest, db: AsyncSession = Depends(get_db)):
-    """Authenticate a user and return a JWT token."""
+async def login(req: LoginRequest, request: Request, db: AsyncSession = Depends(get_db)):
+    """Authenticate a user and return a JWT token.
+
+    Rate-limited to prevent brute-force attacks.
+    """
+    # Rate limiting by client IP
+    client_ip = request.client.host if request.client else "unknown"
+    max_req, window = _parse_rate_limit(settings.RATE_LIMIT_LOGIN)
+    if not rate_limiter.check(f"login:{client_ip}", max_req, window):
+        raise HTTPException(
+            status_code=status.HTTP_429_TOO_MANY_REQUESTS,
+            detail=f"Too many login attempts. Try again later.",
+        )
+
     result = await db.execute(select(User).where(User.username == req.username))
     user = result.scalar_one_or_none()
 
@@ -100,3 +135,20 @@ async def get_current_user(
             detail="User not found",
         )
     return username
+
+
+class UserProfileResponse(BaseModel):
+    username: str
+    role: str
+
+
+@router.get("/profile", response_model=UserProfileResponse)
+async def get_profile(
+    current_user: str = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
+):
+    result = await db.execute(select(User).where(User.username == current_user))
+    user = result.scalar_one_or_none()
+    if not user:
+        raise HTTPException(status_code=404, detail="User not found")
+    return UserProfileResponse(username=user.username, role=user.role.value)

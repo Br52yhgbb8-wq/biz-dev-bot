@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "category": "acdc",
+    "name": "Hybrid Solar AC (ACDC)",
+    "model": "UNI-AC09-ACDC",
+    "price": "$387.00",
+    "tags": [
+      "2026 Ready",
+      "Factory EXW"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "acdc",
+    "name": "Hybrid Solar AC (ACDC)",
+    "model": "UNI-AC12-ACDC",
+    "price": "$467.00",
+    "tags": [
+      "2026 Ready",
+      "Factory EXW"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "acdc",
+    "name": "Hybrid Solar AC (ACDC)",
+    "model": "UNI-AC18-ACDC",
+    "price": "$579.00",
+    "tags": [
+      "2026 Ready",
+      "Factory EXW"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "acdc",
+    "name": "Hybrid Solar AC (ACDC)",
+    "model": "UNI-AC24-ACDC",
+    "price": "$691.00",
+    "tags": [
+      "2026 Ready",
+      "Factory EXW"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "pvswh",
+    "name": "Pressurized Heater (60)",
+    "model": "UNI-PVSWH-60",
+    "price": "$131.00",
+    "tags": [
+      "2026 Ready",
+      "Factory EXW"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "pvswh",
+    "name": "Pressurized Heater (80)",
+    "model": "UNI-PVSWH-80",
+    "price": "$141.00",
+    "tags": [
+      "2026 Ready",
+      "Factory EXW"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "pvswh",
+    "name": "Pressurized Heater (100)",
+    "model": "UNI-PVSWH-100",
+    "price": "$149.00",
+    "tags": [
+      "2026 Ready",
+      "Factory EXW"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "s02",
+    "name": "Non-Pressurized Heater (100)",
+    "model": "UNI-S02-100",
+    "price": "$58.00",
+    "tags": [
+      "2026 Ready",
+      "Factory EXW"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "heatpump",
+    "name": "Heat Pump (A1)",
+    "model": "UNP-HP-A1",
+    "price": "$1299.00",
+    "tags": [
+      "2026 Ready",
+      "Factory EXW"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "heatpump",
+    "name": "Heat Pump (A2)",
+    "model": "UNP-HP-A2",
+    "price": "$1799.00",
+    "tags": [
+      "2026 Ready",
+      "Factory EXW"
+    ]
+  }
+]

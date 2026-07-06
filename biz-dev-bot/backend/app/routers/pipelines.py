@@ -37,6 +37,23 @@ async def list_pipelines(
     return items
 
 
+
+
+@router.get("/export-csv")
+async def export_pipelines_csv(
+    svc: PipelineService = Depends(get_pipeline_service),
+    _: str = Depends(get_current_user),
+):
+    """Export all pipelines as a CSV file."""
+    from fastapi.responses import StreamingResponse
+    csv_content = await svc.export_csv()
+    return StreamingResponse(
+        iter([csv_content]),
+        media_type="text/csv",
+        headers={"Content-Disposition": "attachment; filename=pipelines.csv"},
+    )
+
+
 @router.get("/{pipeline_id}", response_model=PipelineResponse)
 async def get_pipeline(
     pipeline_id: uuid.UUID,

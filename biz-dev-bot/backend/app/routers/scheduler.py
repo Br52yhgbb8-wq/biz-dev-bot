@@ -17,6 +17,7 @@ from app.schemas.scheduler import (
     ScheduledJobResponse,
 )
 from app.services.campaign import CampaignService
+from app.services.notification import NotificationService
 from app.services.scheduler import (
     cancel_task,
     get_scheduled_jobs,
@@ -96,11 +97,17 @@ async def delete_campaign(
 async def start_campaign(
     campaign_id: uuid.UUID,
     svc: CampaignService = Depends(get_campaign_service),
-    _: str = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
+    current_user: str = Depends(get_current_user),
 ):
     campaign = await svc.start_campaign(campaign_id)
     if not campaign:
         raise HTTPException(status_code=404, detail="Campaign not found")
+    await NotificationService(db).create(
+        title=f"活动已启动: {campaign.name}",
+        notification_type="info",
+        username=current_user,
+    )
     return campaign
 
 
@@ -108,11 +115,17 @@ async def start_campaign(
 async def pause_campaign(
     campaign_id: uuid.UUID,
     svc: CampaignService = Depends(get_campaign_service),
-    _: str = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
+    current_user: str = Depends(get_current_user),
 ):
     campaign = await svc.pause_campaign(campaign_id)
     if not campaign:
         raise HTTPException(status_code=404, detail="Campaign not found")
+    await NotificationService(db).create(
+        title=f"活动已暂停: {campaign.name}",
+        notification_type="info",
+        username=current_user,
+    )
     return campaign
 
 
@@ -120,11 +133,17 @@ async def pause_campaign(
 async def resume_campaign(
     campaign_id: uuid.UUID,
     svc: CampaignService = Depends(get_campaign_service),
-    _: str = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
+    current_user: str = Depends(get_current_user),
 ):
     campaign = await svc.resume_campaign(campaign_id)
     if not campaign:
         raise HTTPException(status_code=404, detail="Campaign not found")
+    await NotificationService(db).create(
+        title=f"活动已恢复: {campaign.name}",
+        notification_type="info",
+        username=current_user,
+    )
     return campaign
 
 
@@ -146,7 +165,8 @@ async def campaign_stats(
 @router.post("/api/scheduler/follow-ups", response_model=ScheduleFollowUpResponse)
 async def schedule_follow_up(
     data: ScheduleFollowUpRequest,
-    _: str = Depends(get_current_user),
+    db: AsyncSession = Depends(get_db),
+    current_user: str = Depends(get_current_user),
 ):
     """Schedule a follow-up reminder for a pipeline deal."""
     job_id = schedule_task(
@@ -157,6 +177,13 @@ async def schedule_follow_up(
             "contact_id": str(data.contact_id),
             "message": data.message,
         },
+    )
+    await NotificationService(db).create(
+        title=f"跟进提醒已安排",
+        message=data.message or f"已安排在 {data.scheduled_at.isoformat()} 跟进",
+        notification_type="info",
+        link_url=f"/pipelines/{data.pipeline_id}",
+        username=current_user,
     )
     return ScheduleFollowUpResponse(
         job_id=job_id,

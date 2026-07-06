@@ -1,0 +1,3217 @@
+[
+  {
+    "category": "acdc",
+    "series": "UNP-ACDC",
+    "seriesName": "ACDC Hybrid Solar AC",
+    "description": "Solar-powered hybrid air conditioners",
+    "priceRange": "$167.00 ~ $2257.02",
+    "tags": [
+      "Factory EXW"
+    ],
+    "variants": [
+      {
+        "name": "ACDC9K WIFI (内外机)",
+        "model": "UNP-ACDC9K WIFI",
+        "price": "$387.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Unit | Capacity": "9000BTU/0.75Ton/1HP",
+          "Climate Type | Tropical</= 56℃": "apply",
+          "Application area | m2": "10-20",
+          "Power Supply | AC Power | Ph-V-Hz": "208-230V/50-60Hz",
+          "DC Power | V": "100-380V",
+          "Solar  Power Current | A": "≤12",
+          "Rated Cooling | Capacity | W": "2600",
+          "BTU": "9000(1700 ～11000)",
+          "Power input | W": "635(130 ～1000)",
+          "Rated Heating | Capacity | W": "2650",
+          "EER    (W/W)/ (BTU/W) | /": "4.17/14.17",
+          "COP          (W/W)/ (BTU/W) | /": "4.14/14.06",
+          "Dehumidification capacity | L/h": "1.1",
+          "Type | /": "ROTARY",
+          "Brand | /": "HIGHLY",
+          "Speed (Hi/Mi/Lo) | r/min": "1130/1060/900",
+          "Indoor air flow  (Hi/Mi/Lo) | m3/h": "620/570/510",
+          "Indoor noise level | dB(A)": "≤40",
+          "Net weight/Gross\nweight | Kg": "2026-10-12 00:00:00",
+          "Outdoor noise level | dB(A)": "≤51",
+          "Net/Gross weight | Kg": "22/25",
+          "Refrigerant type | /": "R32",
+          "Refrigerant Charged | g": "550",
+          "Max Design pressure | MPa": "4.30/2.5",
+          "Refrigerant\ncopper pipe | Gas side/Liquid side | mm": "9.52 / 6.35",
+          "Drain pipe size ( Ø ˣ Length ) | mm": "16.9ˣ2000",
+          "Refrigerant conenction copper pipe length | m": "3",
+          "Connection wire length | m": "4",
+          "Container Loading 20GP/40GP/40HQ | Sets": "113/233/254"
+        }
+      },
+      {
+        "name": "ACDC12K WIFI (内外机)",
+        "model": "UNP-ACDC12K WIFI",
+        "price": "$433.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Unit | Capacity": "12000BTU/1Ton/1.5HP",
+          "Climate Type | Tropical</= 56℃": "apply",
+          "Application area | m2": "15-25",
+          "Power Supply | AC Power | Ph-V-Hz": "208-230V/50-60Hz",
+          "DC Power | V": "100-380V",
+          "Solar  Power Current | A": "≤12",
+          "Rated Cooling | Capacity | W": "3520",
+          "BTU": "12000(2300～13200)",
+          "Power input | W": "1000(260～1550)",
+          "Rated Heating | Capacity | W": "3550",
+          "EER    (W/W)/ (BTU/W) | /": "3.52/12.0",
+          "COP          (W/W)/ (BTU/W) | /": "3.70/12.5",
+          "Dehumidification capacity | L/h": "1.3",
+          "Type | /": "ROTARY",
+          "Brand | /": "GMCC",
+          "Speed (Hi/Mi/Lo) | r/min": "1130/1060/900",
+          "Indoor air flow  (Hi/Mi/Lo) | m3/h": "650/595/536",
+          "Indoor noise level | dB(A)": "≤43",
+          "Net weight/Gross\nweight | Kg": "2026-10-13 00:00:00",
+          "Outdoor noise level | dB(A)": "≤50",
+          "Net/Gross weight | Kg": "29/32.5",
+          "Refrigerant type | /": "R32",
+          "Refrigerant Charged | g": "1100",
+          "Max Design pressure | MPa": "4.30/1.15",
+          "Refrigerant\ncopper pipe | Gas side/Liquid side | mm": "9.52 / 6.35",
+          "Drain pipe size ( Ø ˣ Length ) | mm": "16.9ˣ2000",
+          "Refrigerant conenction copper pipe length | m": "3",
+          "Connection wire length | m": "4",
+          "Container Loading 20GP/40GP/40HQ | Sets": "82/179/207"
+        }
+      },
+      {
+        "name": "ACDC18K WIFI (内外机)",
+        "model": "UNP-ACDC18K WIFI",
+        "price": "$569.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Unit | Capacity": "18000BTU/1.5Ton/2HP",
+          "Climate Type | Tropical</= 56℃": "apply",
+          "Application area | m2": "20-35",
+          "Power Supply | AC Power | Ph-V-Hz": "208-230V/50-60Hz",
+          "DC Power | V": "100-380V",
+          "Solar  Power Current | A": "≤12",
+          "Rated Cooling | Capacity | W": "5200",
+          "BTU": "18000(6500~19200)",
+          "Power input | W": "1650(560~1900)",
+          "Rated Heating | Capacity | W": "5120",
+          "EER    (W/W)/ (BTU/W) | /": "3.1/11.0",
+          "COP          (W/W)/ (BTU/W) | /": "3.79/13.33",
+          "Dehumidification capacity | L/h": "1.9",
+          "Type | /": "ROTARY",
+          "Brand | /": "GMCC",
+          "Speed (Hi/Mi/Lo) | r/min": "1200/1100/900",
+          "Indoor air flow  (Hi/Mi/Lo) | m3/h": "1200/970/630",
+          "Indoor noise level | dB(A)": "≤49",
+          "Net weight/Gross\nweight | Kg": "13/16",
+          "Outdoor noise level | dB(A)": "≤57",
+          "Net/Gross weight | Kg": "37/41",
+          "Refrigerant type | /": "R32",
+          "Refrigerant Charged | g": "1250",
+          "Max Design pressure | MPa": "4.30/1.15",
+          "Refrigerant\ncopper pipe | Gas side/Liquid side | mm": "12.70 / 6.35",
+          "Drain pipe size ( Ø ˣ Length ) | mm": "16.9ˣ2000",
+          "Refrigerant conenction copper pipe length | m": "3.5",
+          "Connection wire length | m": "4.5",
+          "Container Loading 20GP/40GP/40HQ | Sets": "60/120/132"
+        }
+      },
+      {
+        "name": "ACDC24K WIFI (内外机)",
+        "model": "UNP-ACDC24K WIFI",
+        "price": "$691.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Unit | Capacity": "24000BTU/2Ton/3HP",
+          "Climate Type | Tropical</= 56℃": "apply",
+          "Application area | m2": "30-45",
+          "Power Supply | AC Power | Ph-V-Hz": "208-230V/50-60Hz",
+          "DC Power | V": "100-380V",
+          "Solar  Power Current | A": "≤12",
+          "Rated Cooling | Capacity | W": "7050",
+          "BTU": "24000(6500~25200)",
+          "Power input | W": "1860(680～2600)",
+          "Rated Heating | Capacity | W": "7120",
+          "EER    (W/W)/ (BTU/W) | /": "3.79/12.9",
+          "COP          (W/W)/ (BTU/W) | /": "3.47/11.70",
+          "Dehumidification capacity | L/h": "2.3",
+          "Type | /": "ROTARY",
+          "Brand | /": "GMCC",
+          "Speed (Hi/Mi/Lo) | r/min": "1350/1200/900",
+          "Indoor air flow  (Hi/Mi/Lo) | m3/h": "1300/1150/650",
+          "Indoor noise level | dB(A)": "≤50",
+          "Net weight/Gross\nweight | Kg": "13/16",
+          "Outdoor noise level | dB(A)": "≤59",
+          "Net/Gross weight | Kg": "48/53",
+          "Refrigerant type | /": "R32",
+          "Refrigerant Charged | g": "1400",
+          "Max Design pressure | MPa": "4.30/1.15",
+          "Refrigerant\ncopper pipe | Gas side/Liquid side | mm": "15.88 / 6.35",
+          "Drain pipe size ( Ø ˣ Length ) | mm": "16.9ˣ2000",
+          "Refrigerant conenction copper pipe length | m": "4",
+          "Connection wire length | m": "5",
+          "Container Loading 20GP/40GP/40HQ | Sets": "48/104/114"
+        }
+      },
+      {
+        "name": "ACDC9K WIFI",
+        "model": "UNP-ACDC9K WIFI",
+        "price": "$613.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Unit | Capacity": "9000BTU/0.75Ton/1HP",
+          "Configuration details": "1.indoor and outdoor\n2.580W PV panel*2\n3.bractet*2\n4.Accessory Pack",
+          "Climate Type | Tropical</= 56℃": "apply",
+          "Application area | m2": "10-20",
+          "Power Supply | AC Power | Ph-V-Hz": "208-230V/50-60Hz",
+          "DC Power | V": "100-380V",
+          "Solar  Power Current | A": "≤12",
+          "Rated Cooling | Capacity | W": "2600",
+          "BTU": "9000(1700 ～11000)",
+          "Power input | W": "635(130 ～1000)",
+          "Rated Heating | Capacity | W": "2650",
+          "EER    (W/W)/ (BTU/W) | /": "4.17/14.17",
+          "COP          (W/W)/ (BTU/W) | /": "4.14/14.06",
+          "Dehumidification capacity | L/h": "1.1",
+          "Type | /": "ROTARY",
+          "Brand | /": "HIGHLY",
+          "Speed (Hi/Mi/Lo) | r/min": "1130/1060/900",
+          "Indoor air flow  (Hi/Mi/Lo) | m3/h": "620/570/510",
+          "Indoor noise level | dB(A)": "≤40",
+          "Net weight/Gross\nweight | Kg": "2026-10-12 00:00:00",
+          "Outdoor noise level | dB(A)": "≤51",
+          "Net/Gross weight | Kg": "22/25",
+          "Refrigerant type | /": "R32",
+          "Refrigerant Charged | g": "550",
+          "Max Design pressure | MPa": "4.30/2.5",
+          "Refrigerant\ncopper pipe | Gas side/Liquid side | mm": "9.52 / 6.35",
+          "Drain pipe size ( Ø ˣ Length ) | mm": "16.9ˣ2000",
+          "Refrigerant conenction copper pipe length | m": "3",
+          "Connection wire length | m": "4",
+          "Container Loading 20GP/40GP/40HQ | Sets": "113/233/254"
+        }
+      },
+      {
+        "name": "ACDC12K WIFI",
+        "model": "UNP-ACDC12K WIFI",
+        "price": "$747.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Unit | Capacity": "12000BTU/1Ton/1.5HP",
+          "Configuration details": "1.indoor and outdoor\n2.580W PV panel*3\n3.bractet*3\n4.Accessory Pack",
+          "Climate Type | Tropical</= 56℃": "apply",
+          "Application area | m2": "15-25",
+          "Power Supply | AC Power | Ph-V-Hz": "208-230V/50-60Hz",
+          "DC Power | V": "100-380V",
+          "Solar  Power Current | A": "≤12",
+          "Rated Cooling | Capacity | W": "3520",
+          "BTU": "12000(2300～13200)",
+          "Power input | W": "1000(260～1550)",
+          "Rated Heating | Capacity | W": "3550",
+          "EER    (W/W)/ (BTU/W) | /": "3.52/12.0",
+          "COP          (W/W)/ (BTU/W) | /": "3.70/12.5",
+          "Dehumidification capacity | L/h": "1.3",
+          "Type | /": "ROTARY",
+          "Brand | /": "GMCC",
+          "Speed (Hi/Mi/Lo) | r/min": "1130/1060/900",
+          "Indoor air flow  (Hi/Mi/Lo) | m3/h": "650/595/536",
+          "Indoor noise level | dB(A)": "≤43",
+          "Net weight/Gross\nweight | Kg": "2026-10-13 00:00:00",
+          "Outdoor noise level | dB(A)": "≤50",
+          "Net/Gross weight | Kg": "29/32.5",
+          "Refrigerant type | /": "R32",
+          "Refrigerant Charged | g": "1100",
+          "Max Design pressure | MPa": "4.30/1.15",
+          "Refrigerant\ncopper pipe | Gas side/Liquid side | mm": "9.52 / 6.35",
+          "Drain pipe size ( Ø ˣ Length ) | mm": "16.9ˣ2000",
+          "Refrigerant conenction copper pipe length | m": "3",
+          "Connection wire length | m": "4",
+          "Container Loading 20GP/40GP/40HQ | Sets": "82/179/207"
+        }
+      },
+      {
+        "name": "ACDC18K WIFI",
+        "model": "UNP-ACDC18K WIFI",
+        "price": "$976.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Unit | Capacity": "18000BTU/1.5Ton/2HP",
+          "Configuration details": "1.indoor and outdoor\n2.580W PV panel*4\n3.bractet*4\n4.Accessory Pack",
+          "Climate Type | Tropical</= 56℃": "apply",
+          "Application area | m2": "20-35",
+          "Power Supply | AC Power | Ph-V-Hz": "208-230V/50-60Hz",
+          "DC Power | V": "100-380V",
+          "Solar  Power Current | A": "≤12",
+          "Rated Cooling | Capacity | W": "5200",
+          "BTU": "18000(6500~19200)",
+          "Power input | W": "1650(560~1900)",
+          "Rated Heating | Capacity | W": "5120",
+          "EER    (W/W)/ (BTU/W) | /": "3.1/11.0",
+          "COP          (W/W)/ (BTU/W) | /": "3.79/13.33",
+          "Dehumidification capacity | L/h": "1.9",
+          "Type | /": "ROTARY",
+          "Brand | /": "GMCC",
+          "Speed (Hi/Mi/Lo) | r/min": "1200/1100/900",
+          "Indoor air flow  (Hi/Mi/Lo) | m3/h": "1200/970/630",
+          "Indoor noise level | dB(A)": "≤49",
+          "Net weight/Gross\nweight | Kg": "13/16",
+          "Outdoor noise level | dB(A)": "≤57",
+          "Net/Gross weight | Kg": "37/41",
+          "Refrigerant type | /": "R32",
+          "Refrigerant Charged | g": "1250",
+          "Max Design pressure | MPa": "4.30/1.15",
+          "Refrigerant\ncopper pipe | Gas side/Liquid side | mm": "12.70 / 6.35",
+          "Drain pipe size ( Ø ˣ Length ) | mm": "16.9ˣ2000",
+          "Refrigerant conenction copper pipe length | m": "3.5",
+          "Connection wire length | m": "4.5",
+          "Container Loading 20GP/40GP/40HQ | Sets": "60/120/132"
+        }
+      },
+      {
+        "name": "ACDC24K WIFI",
+        "model": "UNP-ACDC24K WIFI",
+        "price": "$1186.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Unit | Capacity": "24000BTU/2Ton/3HP",
+          "Configuration details": "1.indoor and outdoor\n2.580W PV panel*5\n3.bractet*5\n4.Accessory Pack",
+          "Climate Type | Tropical</= 56℃": "apply",
+          "Application area | m2": "30-45",
+          "Power Supply | AC Power | Ph-V-Hz": "208-230V/50-60Hz",
+          "DC Power | V": "100-380V",
+          "Solar  Power Current | A": "≤12",
+          "Rated Cooling | Capacity | W": "7050",
+          "BTU": "24000(6500~25200)",
+          "Power input | W": "1860(680～2600)",
+          "Rated Heating | Capacity | W": "7120",
+          "EER    (W/W)/ (BTU/W) | /": "3.79/12.9",
+          "COP          (W/W)/ (BTU/W) | /": "3.47/11.70",
+          "Dehumidification capacity | L/h": "2.3",
+          "Type | /": "ROTARY",
+          "Brand | /": "GMCC",
+          "Speed (Hi/Mi/Lo) | r/min": "1350/1200/900",
+          "Indoor air flow  (Hi/Mi/Lo) | m3/h": "1300/1150/650",
+          "Indoor noise level | dB(A)": "≤50",
+          "Net weight/Gross\nweight | Kg": "13/16",
+          "Outdoor noise level | dB(A)": "≤59",
+          "Net/Gross weight | Kg": "48/53",
+          "Refrigerant type | /": "R32",
+          "Refrigerant Charged | g": "1400",
+          "Max Design pressure | MPa": "4.30/1.15",
+          "Refrigerant\ncopper pipe | Gas side/Liquid side | mm": "15.88 / 6.35",
+          "Drain pipe size ( Ø ˣ Length ) | mm": "16.9ˣ2000",
+          "Refrigerant conenction copper pipe length | m": "4",
+          "Connection wire length | m": "5",
+          "Container Loading 20GP/40GP/40HQ | Sets": "48/104/114"
+        }
+      },
+      {
+        "name": "DC48V9K WIFI (三合一整套6-8小时)",
+        "model": "UNP-DC48V9K WIFI",
+        "price": "$1287.16",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Unit | Capacity": "9000BTU/0.75Ton/1HP",
+          "Climate Type | Tropical</= 56℃": "apply",
+          "Application area | m2": "10-20",
+          "Power Supply | AC Power | Ph-V-Hz": "208-230V/50-60Hz",
+          "DC Power | V": "100-380V",
+          "Solar  Power Current | A": "≤12",
+          "Rated Cooling | Capacity | W": "2600",
+          "BTU": "9000(1700 ～11000)",
+          "Power input | W": "635(130 ～1000)",
+          "Rated Heating | Capacity | W": "2650",
+          "EER    (W/W)/ (BTU/W) | /": "4.17/14.17",
+          "COP          (W/W)/ (BTU/W) | /": "4.14/14.06",
+          "Dehumidification capacity | L/h": "1.1",
+          "Type | /": "ROTARY",
+          "Brand | /": "HIGHLY",
+          "Speed (Hi/Mi/Lo) | r/min": "1130/1060/900",
+          "Indoor air flow  (Hi/Mi/Lo) | m3/h": "620/570/510",
+          "Indoor noise level | dB(A)": "≤40",
+          "Net weight/Gross\nweight | Kg": "2026-10-12 00:00:00",
+          "Outdoor noise level | dB(A)": "≤51",
+          "Net/Gross weight | Kg": "22/25",
+          "Refrigerant type | /": "R32",
+          "Refrigerant Charged | g": "550",
+          "Max Design pressure | MPa": "4.30/2.5",
+          "Refrigerant\ncopper pipe | Gas side/Liquid side | mm": "9.52 / 6.35",
+          "Drain pipe size ( Ø ˣ Length ) | mm": "16.9ˣ2000",
+          "Refrigerant conenction copper pipe length | m": "3",
+          "Connection wire length | m": "4",
+          "Container Loading 20GP/40GP/40HQ | Sets": "113/233/254"
+        }
+      },
+      {
+        "name": "DC48V12K WIFI (三合一整套6-8小时)",
+        "model": "UNP-DC48V12K WIFI",
+        "price": "$1408.16",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Unit | Capacity": "12000BTU/1Ton/1.5HP",
+          "Climate Type | Tropical</= 56℃": "apply",
+          "Application area | m2": "15-25",
+          "Power Supply | AC Power | Ph-V-Hz": "208-230V/50-60Hz",
+          "DC Power | V": "100-380V",
+          "Solar  Power Current | A": "≤12",
+          "Rated Cooling | Capacity | W": "3520",
+          "BTU": "12000(2300～13200)",
+          "Power input | W": "1000(260～1550)",
+          "Rated Heating | Capacity | W": "3550",
+          "EER    (W/W)/ (BTU/W) | /": "3.52/12.0",
+          "COP          (W/W)/ (BTU/W) | /": "3.70/12.5",
+          "Dehumidification capacity | L/h": "1.3",
+          "Type | /": "ROTARY",
+          "Brand | /": "GMCC",
+          "Speed (Hi/Mi/Lo) | r/min": "1130/1060/900",
+          "Indoor air flow  (Hi/Mi/Lo) | m3/h": "650/595/536",
+          "Indoor noise level | dB(A)": "≤43",
+          "Net weight/Gross\nweight | Kg": "2026-10-13 00:00:00",
+          "Outdoor noise level | dB(A)": "≤50",
+          "Net/Gross weight | Kg": "29/32.5",
+          "Refrigerant type | /": "R32",
+          "Refrigerant Charged | g": "1100",
+          "Max Design pressure | MPa": "4.30/1.15",
+          "Refrigerant\ncopper pipe | Gas side/Liquid side | mm": "9.52 / 6.35",
+          "Drain pipe size ( Ø ˣ Length ) | mm": "16.9ˣ2000",
+          "Refrigerant conenction copper pipe length | m": "3",
+          "Connection wire length | m": "4",
+          "Container Loading 20GP/40GP/40HQ | Sets": "82/179/207"
+        }
+      },
+      {
+        "name": "DC48V18K WIFI (三合一整套6-8小时)",
+        "model": "UNP-DC48V18K WIFI",
+        "price": "$1923.30",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Unit | Capacity": "18000BTU/1.5Ton/2HP",
+          "Climate Type | Tropical</= 56℃": "apply",
+          "Application area | m2": "20-35",
+          "Power Supply | AC Power | Ph-V-Hz": "208-230V/50-60Hz",
+          "DC Power | V": "100-380V",
+          "Solar  Power Current | A": "≤12",
+          "Rated Cooling | Capacity | W": "5200",
+          "BTU": "18000(6500~19200)",
+          "Power input | W": "1650(560~1900)",
+          "Rated Heating | Capacity | W": "5120",
+          "EER    (W/W)/ (BTU/W) | /": "3.1/11.0",
+          "COP          (W/W)/ (BTU/W) | /": "3.79/13.33",
+          "Dehumidification capacity | L/h": "1.9",
+          "Type | /": "ROTARY",
+          "Brand | /": "GMCC",
+          "Speed (Hi/Mi/Lo) | r/min": "1200/1100/900",
+          "Indoor air flow  (Hi/Mi/Lo) | m3/h": "1200/970/630",
+          "Indoor noise level | dB(A)": "≤49",
+          "Net weight/Gross\nweight | Kg": "13/16",
+          "Outdoor noise level | dB(A)": "≤57",
+          "Net/Gross weight | Kg": "37/41",
+          "Refrigerant type | /": "R32",
+          "Refrigerant Charged | g": "1250",
+          "Max Design pressure | MPa": "4.30/1.15",
+          "Refrigerant\ncopper pipe | Gas side/Liquid side | mm": "12.70 / 6.35",
+          "Drain pipe size ( Ø ˣ Length ) | mm": "16.9ˣ2000",
+          "Refrigerant conenction copper pipe length | m": "3.5",
+          "Connection wire length | m": "4.5",
+          "Container Loading 20GP/40GP/40HQ | Sets": "60/120/132"
+        }
+      },
+      {
+        "name": "DC48V24K WIFI (三合一整套6-8小时)",
+        "model": "UNP-DC48V24K WIFI",
+        "price": "$2257.02",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Unit | Capacity": "24000BTU/2Ton/3HP",
+          "Climate Type | Tropical</= 56℃": "apply",
+          "Application area | m2": "30-45",
+          "Power Supply | AC Power | Ph-V-Hz": "208-230V/50-60Hz",
+          "DC Power | V": "100-380V",
+          "Solar  Power Current | A": "≤12",
+          "Rated Cooling | Capacity | W": "7050",
+          "BTU": "24000(6500~25200)",
+          "Power input | W": "1860(680～2600)",
+          "Rated Heating | Capacity | W": "7120",
+          "EER    (W/W)/ (BTU/W) | /": "3.79/12.9",
+          "COP          (W/W)/ (BTU/W) | /": "3.47/11.70",
+          "Dehumidification capacity | L/h": "2.3",
+          "Type | /": "ROTARY",
+          "Brand | /": "GMCC",
+          "Speed (Hi/Mi/Lo) | r/min": "1350/1200/900",
+          "Indoor air flow  (Hi/Mi/Lo) | m3/h": "1300/1150/650",
+          "Indoor noise level | dB(A)": "≤50",
+          "Net weight/Gross\nweight | Kg": "13/16",
+          "Outdoor noise level | dB(A)": "≤59",
+          "Net/Gross weight | Kg": "48/53",
+          "Refrigerant type | /": "R32",
+          "Refrigerant Charged | g": "1400",
+          "Max Design pressure | MPa": "4.30/1.15",
+          "Refrigerant\ncopper pipe | Gas side/Liquid side | mm": "15.88 / 6.35",
+          "Drain pipe size ( Ø ˣ Length ) | mm": "16.9ˣ2000",
+          "Refrigerant conenction copper pipe length | m": "4",
+          "Connection wire length | m": "5",
+          "Container Loading 20GP/40GP/40HQ | Sets": "48/104/114"
+        }
+      },
+      {
+        "name": "9K (内外机)",
+        "model": "UNP-OCS-9K",
+        "price": "$369.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Unit | Capacity": "9000BTU/0.75Ton/1HP",
+          "Application area | m2": "10-20",
+          "Power Supply | AC Power | Ph-V-Hz": "1Ø200-240V/50-60Hz",
+          "DC Power | V": "80-380V",
+          "Solar  Power Current | A": "≤12",
+          "Rated Cooling | Capacity | BTU": "9000(1700～11000)",
+          "Power input | W": "635(130～1000)",
+          "EER     (BTU/W) | /": "14.17",
+          "Dehumidification capacity | L/h": "1.1",
+          "Type | DC": "Rotary Inverter",
+          "Brand | /": "HIGHLY",
+          "Speed (Hi/Mi/Lo) | r/min": "900/850/820",
+          "Indoor air flow  (Hi/Mi/Lo) | m3/h": "600",
+          "Indoor noise level | dB(A)": "40",
+          "Net weight/Gross\nweight | Kg": "10/12",
+          "Outdoor noise level | dB(A)": "51",
+          "Net/Gross weight | Kg": "21/24",
+          "Refrigerant type | /": "R410a",
+          "Refrigerant Charged | g": "630",
+          "Max Design pressure | MPa": "4.3/1.15",
+          "Refrigerant\ncopper pipe | Gas side/Liquid side | mm": "6/9",
+          "Drain pipe size ( Ø ˣ Length ) | mm": "φ16×1400",
+          "Refrigerant conenction copper pipe length | m": "3",
+          "Connection wire length | m": "3.5",
+          "Container Loading 20GP/40GP/40HQ | Sets": "113/239/258"
+        }
+      },
+      {
+        "name": "12K (内外机)",
+        "model": "UNP-OCS-12K",
+        "price": "$391.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Unit | Capacity": "12000BTU/1Ton/1.5HP",
+          "Application area | m2": "15-25",
+          "Power Supply | AC Power | Ph-V-Hz": "1Ø200-240V/50-60Hz",
+          "DC Power | V": "80-380V",
+          "Solar  Power Current | A": "≤12",
+          "Rated Cooling | Capacity | BTU": "12000(2300～13200)",
+          "Power input | W": "1000(260～1550)",
+          "EER     (BTU/W) | /": "12",
+          "Dehumidification capacity | L/h": "1.3",
+          "Type | DC": "Rotary Inverter",
+          "Brand | /": "HIGHLY",
+          "Speed (Hi/Mi/Lo) | r/min": "950/900/830",
+          "Indoor air flow  (Hi/Mi/Lo) | m3/h": "700",
+          "Indoor noise level | dB(A)": "42",
+          "Net weight/Gross\nweight | Kg": "10/12",
+          "Outdoor noise level | dB(A)": "52",
+          "Net/Gross weight | Kg": "23/28",
+          "Refrigerant type | /": "R410a",
+          "Refrigerant Charged | g": "700",
+          "Max Design pressure | MPa": "4.3/1.15",
+          "Refrigerant\ncopper pipe | Gas side/Liquid side | mm": "6/9",
+          "Drain pipe size ( Ø ˣ Length ) | mm": "φ16×1400",
+          "Refrigerant conenction copper pipe length | m": "3",
+          "Connection wire length | m": "3.5",
+          "Container Loading 20GP/40GP/40HQ | Sets": "94/200/242"
+        }
+      },
+      {
+        "name": "18K (内外机)",
+        "model": "UNP-OCS-18K",
+        "price": "$479.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Unit | Capacity": "18000BTU/1.5Ton/2HP",
+          "Application area | m2": "20-35",
+          "Power Supply | AC Power | Ph-V-Hz": "1Ø200-240V/50-60Hz",
+          "DC Power | V": "80-380V",
+          "Solar  Power Current | A": "≤12",
+          "Rated Cooling | Capacity | BTU": "18000(6500~19200)",
+          "Power input | W": "1400(400~1900)",
+          "EER     (BTU/W) | /": "11",
+          "Dehumidification capacity | L/h": "1.9",
+          "Type | DC": "Rotary Inverter",
+          "Brand | /": "HIGHLY",
+          "Speed (Hi/Mi/Lo) | r/min": "1020/920/860",
+          "Indoor air flow  (Hi/Mi/Lo) | m3/h": "800",
+          "Indoor noise level | dB(A)": "45",
+          "Net weight/Gross\nweight | Kg": "11/13",
+          "Outdoor noise level | dB(A)": "54",
+          "Net/Gross weight | Kg": "28.5/32.5",
+          "Refrigerant type | /": "R410a",
+          "Refrigerant Charged | g": "900",
+          "Max Design pressure | MPa": "4.3/1.15",
+          "Refrigerant\ncopper pipe | Gas side/Liquid side | mm": "6/12",
+          "Drain pipe size ( Ø ˣ Length ) | mm": "φ16×1400",
+          "Refrigerant conenction copper pipe length | m": "3",
+          "Connection wire length | m": "3.5",
+          "Container Loading 20GP/40GP/40HQ | Sets": "81/175/195"
+        }
+      },
+      {
+        "name": "Fan motor",
+        "model": "Fan motor",
+        "price": "$296.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "m3/h": "Air circulation (H/M/L)",
+          "mm": "Net Dimension\n(Width xDepth xHeight)",
+          "Compressor Parameter": "type",
+          "W": "Capacity",
+          "A": "Rated current(RLA)",
+          "uF": "Capacitor",
+          "ml": "Refrigerant oil",
+          "Fan system | Type": "Fan",
+          "Condenser | Row": "Rows",
+          "Material:  (SWAAT 200hours）": "Tube",
+          "Material": "Fin",
+          "㎡": "Face Area",
+          "Intercept device": "Intercept device type",
+          "Casing": "Material",
+          "Bottom Pan | mm": "Thickness"
+        }
+      },
+      {
+        "name": "MC37A002",
+        "model": "DC5010HA-MC37A002",
+        "price": "$375.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Capacitor | μF": "/",
+          "Motor speed (H/M/L) | rpm": "1350/1200/950",
+          "Rated Current | A": "0.06",
+          "Rated Input Power | W": "24.5",
+          "Rated Output Power | W": "20",
+          "m3/h": "680/580/450",
+          "mm": "850*190*283",
+          "Condensate Drainage Pipe (O.D) | mm": "16.9",
+          "Condensate Drainage Pipe ( L) | mm": "2000",
+          "Connection | Connect pipe | Material": "TP2/M",
+          "Length | m": "3",
+          "Liquid tube Diameter | mm": "6",
+          "Gas  tube Diameter | mm": "9",
+          "Stop Valve | Liquid Valve": "Dg4",
+          "Gas Valve": "Dg8",
+          "Connected wires | Length | m": "4m",
+          "Core 1#": "4",
+          "Cable 1# | mm": "1.0",
+          "Core 2#": "/",
+          "Cable 2# | mm": "/",
+          "Signal Cord | m": "/",
+          "Compressor Parameter": "Hermetic Rotary DC Inverter",
+          "W": "3490",
+          "A": "3.8",
+          "uF": "/",
+          "ml": "ACS-68R  280±20",
+          "Fan system | Type": "Axial flow fan",
+          "Blade Material": "AS",
+          "Diameter | mm": "Φ429",
+          "Condenser | Row": "1",
+          "Material:  (SWAAT 200hours）": "Aluminum 3003",
+          "Length | mm": "820",
+          "Material": "8011 H24 AL",
+          "Fin Type": "Window opening fins",
+          "Fin spaceing | mm": "1.4",
+          "㎡": "0.820*0.504",
+          "Intercept device": "Electronic expansion valve",
+          "Capillary Specification for Cooling | mm": "/",
+          "Capillary Specification for Heating | mm": "/",
+          "Casing": "DC51D+Z",
+          "Bottom Pan | mm": "1.0",
+          "Cabinet | mm": "0.6",
+          "Right Side Cover | mm": "0.6",
+          "Top Cover | mm": "0.6",
+          "Indoor Unit | years": "2",
+          "Outdoor Unit | years": "3",
+          "Compressor | years": "5"
+        }
+      },
+      {
+        "name": "Fan motor",
+        "model": "Fan motor",
+        "price": "$167.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "m3/h": "Air circulation (H/M/L)",
+          "mm": "Net Dimension\n(Width xDepth xHeight)",
+          "Compressor Parameter": "type",
+          "W": "Capacity",
+          "A": "Rated current(RLA)",
+          "uF": "Capacitor",
+          "ml": "Refrigerant oil",
+          "Fan system | Type": "Fan",
+          "Condenser | Row": "Rows",
+          "Material:  (SWAAT 200hours）": "Tube",
+          "Material": "Fin",
+          "㎡": "Face Area",
+          "Intercept device": "Intercept device type",
+          "Casing": "Material",
+          "Bottom Pan | mm": "Thickness"
+        }
+      },
+      {
+        "name": "MC37A002",
+        "model": "DC5010HA-MC37A002",
+        "price": "$197.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Capacitor | μF": "/",
+          "Motor speed (H/M/L) | rpm": "1350/1200/950",
+          "Rated Current | A": "0.06",
+          "Rated Input Power | W": "24.5",
+          "Rated Output Power | W": "20",
+          "m3/h": "680/580/450",
+          "mm": "850*190*283",
+          "Condensate Drainage Pipe (O.D) | mm": "16.9",
+          "Condensate Drainage Pipe ( L) | mm": "2000",
+          "Connection | Connect pipe | Material": "TP2/M",
+          "Length | m": "3",
+          "Liquid tube Diameter | mm": "6",
+          "Gas  tube Diameter | mm": "9",
+          "Stop Valve | Liquid Valve": "Dg4",
+          "Gas Valve": "Dg8",
+          "Connected wires | Length | m": "4m",
+          "Core 1#": "4",
+          "Cable 1# | mm": "1.0",
+          "Core 2#": "/",
+          "Cable 2# | mm": "/",
+          "Signal Cord | m": "/",
+          "Compressor Parameter": "Hermetic Rotary DC Inverter",
+          "W": "3490",
+          "A": "3.8",
+          "uF": "/",
+          "ml": "ACS-68R  280±20",
+          "Fan system | Type": "Axial flow fan",
+          "Blade Material": "AS",
+          "Diameter | mm": "Φ429",
+          "Condenser | Row": "1",
+          "Material:  (SWAAT 200hours）": "Aluminum 3003",
+          "Length | mm": "820",
+          "Material": "8011 H24 AL",
+          "Fin Type": "Window opening fins",
+          "Fin spaceing | mm": "1.4",
+          "㎡": "0.820*0.504",
+          "Intercept device": "Electronic expansion valve",
+          "Capillary Specification for Cooling | mm": "/",
+          "Capillary Specification for Heating | mm": "/",
+          "Casing": "DC51D+Z",
+          "Bottom Pan | mm": "1.0",
+          "Cabinet | mm": "0.6",
+          "Right Side Cover | mm": "0.6",
+          "Top Cover | mm": "0.6",
+          "Indoor Unit | years": "2",
+          "Outdoor Unit | years": "3",
+          "Compressor | years": "5",
+          "0.089 | 314.606741573034 | 651.685393258427 | 775.280898876405": "0.089",
+          "0.134 | 208.955223880597 | 432.835820895522 | 514.925373134328": "0.134"
+        }
+      },
+      {
+        "name": "MC37A002",
+        "model": "DC5010HA-MC37A002",
+        "price": "$281.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Capacitor | μF": "/",
+          "Motor speed (H/M/L) | rpm": "1350/1200/950",
+          "Rated Current | A": "0.06",
+          "Rated Input Power | W": "24.5",
+          "Rated Output Power | W": "20",
+          "m3/h": "680/580/450",
+          "mm": "850*190*283",
+          "Condensate Drainage Pipe (O.D) | mm": "16.9",
+          "Condensate Drainage Pipe ( L) | mm": "2000",
+          "Connection | Connect pipe | Material": "TP2/M",
+          "Length | m": "3",
+          "Liquid tube Diameter | mm": "6",
+          "Gas  tube Diameter | mm": "9",
+          "Stop Valve | Liquid Valve": "Dg4",
+          "Gas Valve": "Dg8",
+          "Connected wires | Length | m": "4m",
+          "Core 1#": "4",
+          "Cable 1# | mm": "1.0",
+          "Core 2#": "/",
+          "Cable 2# | mm": "/",
+          "Signal Cord | m": "/",
+          "Compressor Parameter": "Hermetic Rotary DC Inverter",
+          "W": "3490",
+          "A": "3.8",
+          "uF": "/",
+          "ml": "ACS-68R  280±20",
+          "Fan system | Type": "Axial flow fan",
+          "Blade Material": "AS",
+          "Diameter | mm": "Φ429",
+          "Condenser | Row": "1",
+          "Material:  (SWAAT 200hours）": "Aluminum 3003",
+          "Length | mm": "820",
+          "Material": "8011 H24 AL",
+          "Fin Type": "Window opening fins",
+          "Fin spaceing | mm": "1.4",
+          "㎡": "0.820*0.504",
+          "Intercept device": "Electronic expansion valve",
+          "Capillary Specification for Cooling | mm": "/",
+          "Capillary Specification for Heating | mm": "/",
+          "Casing": "DC51D+Z",
+          "Bottom Pan | mm": "1.0",
+          "Cabinet | mm": "0.6",
+          "Right Side Cover | mm": "0.6",
+          "Top Cover | mm": "0.6",
+          "Indoor Unit | years": "2",
+          "Outdoor Unit | years": "3",
+          "Compressor | years": "5",
+          "0.089 | 314.606741573034 | 651.685393258427 | 775.280898876405": "0.089",
+          "0.134 | 208.955223880597 | 432.835820895522 | 514.925373134328": "0.134"
+        }
+      },
+      {
+        "name": "MC37A002",
+        "model": "DC5010HA-MC37A002",
+        "price": "$312.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Capacitor | μF": "/",
+          "Motor speed (H/M/L) | rpm": "1350/1200/950",
+          "Rated Current | A": "0.06",
+          "Rated Input Power | W": "24.5",
+          "Rated Output Power | W": "20",
+          "m3/h": "680/580/450",
+          "mm": "850*190*283",
+          "Condensate Drainage Pipe (O.D) | mm": "16.9",
+          "Condensate Drainage Pipe ( L) | mm": "2000",
+          "Connection | Connect pipe | Material": "TP2/M",
+          "Length | m": "3",
+          "Liquid tube Diameter | mm": "6",
+          "Gas  tube Diameter | mm": "9",
+          "Stop Valve | Liquid Valve": "Dg4",
+          "Gas Valve": "Dg8",
+          "Connected wires | Length | m": "4m",
+          "Core 1#": "4",
+          "Cable 1# | mm": "1.0",
+          "Core 2#": "/",
+          "Cable 2# | mm": "/",
+          "Signal Cord | m": "/",
+          "Compressor Parameter": "Hermetic Rotary DC Inverter",
+          "W": "3490",
+          "A": "3.8",
+          "uF": "/",
+          "ml": "ACS-68R  280±20",
+          "Fan system | Type": "Axial flow fan",
+          "Blade Material": "AS",
+          "Diameter | mm": "Φ429",
+          "Condenser | Row": "1",
+          "Material:  (SWAAT 200hours）": "Aluminum 3003",
+          "Length | mm": "820",
+          "Material": "8011 H24 AL",
+          "Fin Type": "Window opening fins",
+          "Fin spaceing | mm": "1.4",
+          "㎡": "0.820*0.504",
+          "Intercept device": "Electronic expansion valve",
+          "Capillary Specification for Cooling | mm": "/",
+          "Capillary Specification for Heating | mm": "/",
+          "Casing": "DC51D+Z",
+          "Bottom Pan | mm": "1.0",
+          "Cabinet | mm": "0.6",
+          "Right Side Cover | mm": "0.6",
+          "Top Cover | mm": "0.6",
+          "Indoor Unit | years": "2",
+          "Outdoor Unit | years": "3",
+          "Compressor | years": "5",
+          "0.089 | 314.606741573034 | 651.685393258427 | 775.280898876405": "0.089",
+          "0.134 | 208.955223880597 | 432.835820895522 | 514.925373134328": "0.134"
+        }
+      }
+    ]
+  },
+  {
+    "category": "pvswh",
+    "series": "UNP-PVSWH",
+    "seriesName": "Pressurized Heater",
+    "description": "Pressurized solar water heaters",
+    "priceRange": "$57.31 ~ $738.40",
+    "tags": [
+      "Factory EXW"
+    ],
+    "variants": [
+      {
+        "name": "60L",
+        "model": "UNP-PVSWH-60L",
+        "price": "$131.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Power Supply | AC Power": "AC 85~250V 50~60HZ 1000W",
+          "DC Power": "DC 30~200V 500W",
+          "Accessories (Recommend, but not included in the prices) | PV panel": "580W*1",
+          "PV bracket": "30*30*2.5mm, aluminum alloy",
+          "PV wire": "The machine comes with a 1.5m photovoltaic line and 10m of red and black photovoltaic lines",
+          "plug": "Plug（Customizable）with AC wire 1.2m  and leakage protection",
+          "Net Weight(Kg)": "68",
+          "Gross Weight (Kg)": "73",
+          "Accessories(Extra Cost)": "Solar Panel 580-610W  Double Glass Top con Technology Per Watt",
+          "价格说明": "在 PVSWH 系列中：\n* 304 不锈钢内胆标准厚度为 1.0mm。\n    每增加 0.1mm 厚度，价格按每升增加人民币1.5元（约 USD 0.25/升）。\n* 如内胆材质升级为同厚度的 316L 不锈钢，价格增加人民币 4 元（约 USD 0.6/升）。\n    在此基础上，每增加 0.1mm 厚度，价格按每孔再增加人民币 2.5 元（约 USD 0.38/升）。\n* 默认电加热仅匹配 1 块光伏板。\n    如需并联 2 块光伏板，电加热部分需增加人民币 8 元（约 USD 1.20）。\n* 所有标准报价中的水箱壁挂支架默认采用镀锌材质。\n    若材质需更改为 201 不锈钢，价格增加人民币 15 元（约 USD 2.30）。\n* 若配置 1 片以上的光伏板，需额外增加光伏连接线和 MC4 接头。\n    每增加 1 片光伏组件，价格增加人民币 15 元（约 USD 2.30）。"
+        }
+      },
+      {
+        "name": "80L",
+        "model": "UNP-PVSWH-80L",
+        "price": "$139.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Accessories (Recommend, but not included in the prices) | PV panel": "580W*1",
+          "Net Weight(Kg)": "93",
+          "Gross Weight (Kg)": "98"
+        }
+      },
+      {
+        "name": "100L",
+        "model": "UNP-PVSWH-100L",
+        "price": "$149.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Accessories (Recommend, but not included in the prices) | PV panel": "580W*1",
+          "Net Weight(Kg)": "112",
+          "Gross Weight (Kg)": "117",
+          "Accessories(Extra Cost)": "¥0.12"
+        }
+      },
+      {
+        "name": "153L",
+        "model": "UNP-K-IP01-153L",
+        "price": "$313.50",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Hole to hole Distance": "80",
+          "Frame | Type": "7*7",
+          "Degree": "45°",
+          "Collector | No.s of Tube": "18",
+          "Absor area": "2.52㎡",
+          "Output": "150W",
+          "Tube": "58/1800 Three Layers Coating",
+          "Heat Pipe": "T2 Copper 1700mm*0.7mm",
+          "Working Temperature": "–15°C to 45°C"
+        }
+      },
+      {
+        "name": "202L",
+        "model": "UNP-K-IP01-202L",
+        "price": "$394.20",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "24",
+          "Absor area": "3.36㎡",
+          "Heat Pipe (Included) | Copper TP2 Coil  Per Piece": "5.75",
+          "Heat Pipe (optional) | Stainless Steel Per Piece": "4.8",
+          "Accessories(Extra Cost) | PT Valve": "6.3",
+          "Accessories(Extra Cost) | Air Valve": "2.5",
+          "Accessories(Extra Cost) | Check Valve( One -Way Valve)": "2.5",
+          "Accessories(Extra Cost) | Vacuum Valve": "4.4",
+          "Accessories(Extra Cost) | Controller With WIFI": "19.9",
+          "Accessories(Extra Cost) | Heating Element (thermonate, adjustable)": "6.5"
+        }
+      },
+      {
+        "name": "10",
+        "model": "UNP-IP01-10",
+        "price": "$180.09",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Hole to hole Distance": "75mm",
+          "Frame | Type": "7*7",
+          "Degree": "20/27/38/45°",
+          "Collector | No.s of Tube": "10",
+          "Absor area": "1.36㎡",
+          "Tube": "58/1800 Three Layers Coating",
+          "Heat pipe": "Body heat pipe 58*1700mm*0.45mm thickness, copper condenser head 70mm, diameter 14mm"
+        }
+      },
+      {
+        "name": "12",
+        "model": "UNP-IP01-12",
+        "price": "$196.65",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "12",
+          "Absor area": "1.64㎡"
+        }
+      },
+      {
+        "name": "15",
+        "model": "UNP-IP01-15",
+        "price": "$225.63",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "15",
+          "Absor area": "2.044㎡"
+        }
+      },
+      {
+        "name": "16",
+        "model": "UNP-IP01-16",
+        "price": "$244.26",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "16",
+          "Absor area": "2.18㎡"
+        }
+      },
+      {
+        "name": "18",
+        "model": "UNP-IP01-18",
+        "price": "$255.64",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "18",
+          "Absor area": "2.26㎡"
+        }
+      },
+      {
+        "name": "20",
+        "model": "UNP-IP01-20",
+        "price": "$275.31",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "20",
+          "Absor area": "2.72㎡"
+        }
+      },
+      {
+        "name": "24",
+        "model": "UNP-IP01-24",
+        "price": "$313.60",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "24",
+          "Absor area": "3.27㎡"
+        }
+      },
+      {
+        "name": "25",
+        "model": "UNP-IP01-25",
+        "price": "$340.51",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "25",
+          "Absor area": "3.41㎡"
+        }
+      },
+      {
+        "name": "30",
+        "model": "UNP-IP01-30",
+        "price": "$390.19",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "30",
+          "Absor area": "3.91㎡",
+          "Heat Pipe (Included) | Copper TP2 Coil  Per Piece": "5.75",
+          "Heat Pipe (optional) | Stainless Steel Per Piece": "4.8",
+          "Accessories(Extra Cost) | PT Valve": "6.3",
+          "Accessories(Extra Cost) | Air Valve": "2.5",
+          "Accessories(Extra Cost) | Check Valve( One -Way Valve)": "2.5",
+          "Accessories(Extra Cost) | Vacuum Valve": "4.4",
+          "Accessories(Extra Cost) | Controller With WIFI": "19.9",
+          "Accessories(Extra Cost) | Heating Element (thermonate, adjustable)": "6.5"
+        }
+      },
+      {
+        "name": "10",
+        "model": "UNP-IP01-10",
+        "price": "$183.05",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Hole to hole Distance": "75mm",
+          "Frame | Type": "7*7",
+          "Degree": "20/27/38/45°",
+          "Collector | No.s of Tube": "10",
+          "Absor area": "1.36㎡",
+          "Tube": "58/1800 Three Layers Coating",
+          "Heat pipe": "Body heat pipe 58*1700mm*0.45mm thickness, copper condenser head 70mm, diameter 14mm"
+        }
+      },
+      {
+        "name": "12",
+        "model": "UNP-IP01-12",
+        "price": "$199.88",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "12",
+          "Absor area": "1.64㎡"
+        }
+      },
+      {
+        "name": "15",
+        "model": "UNP-IP01-15",
+        "price": "$229.34",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "15",
+          "Absor area": "2.044㎡"
+        }
+      },
+      {
+        "name": "16",
+        "model": "UNP-IP01-16",
+        "price": "$248.27",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "16",
+          "Absor area": "2.18㎡"
+        }
+      },
+      {
+        "name": "18",
+        "model": "UNP-IP01-18",
+        "price": "$259.84",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "18",
+          "Absor area": "2.26㎡"
+        }
+      },
+      {
+        "name": "20",
+        "model": "UNP-IP01-20",
+        "price": "$279.83",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "20",
+          "Absor area": "2.72㎡"
+        }
+      },
+      {
+        "name": "24",
+        "model": "UNP-IP01-24",
+        "price": "$318.76",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "24",
+          "Absor area": "3.27㎡"
+        }
+      },
+      {
+        "name": "25",
+        "model": "UNP-IP01-25",
+        "price": "$346.11",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "25",
+          "Absor area": "3.41㎡"
+        }
+      },
+      {
+        "name": "30",
+        "model": "UNP-IP01-30",
+        "price": "$396.60",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "30",
+          "Absor area": "3.91㎡",
+          "Heat Pipe (Included) | Copper TP2 Coil  Per Piece": "5.75",
+          "Heat Pipe (optional) | Stainless Steel Per Piece": "4.8",
+          "Accessories(Extra Cost) | PT Valve": "6.3",
+          "Accessories(Extra Cost) | Air Valve": "2.5",
+          "Accessories(Extra Cost) | Check Valve( One -Way Valve)": "2.5",
+          "Accessories(Extra Cost) | Vacuum Valve": "4.4",
+          "Accessories(Extra Cost) | Controller With WIFI": "19.9",
+          "Accessories(Extra Cost) | Heating Element (thermonate, adjustable)": "6.5"
+        }
+      },
+      {
+        "name": "100L",
+        "model": "UNP-FPS01-100L",
+        "price": "$236.68",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Frame | Type": "Flat Panel bracket",
+          "Degree": "38°",
+          "Collector | Flat panel 2000*1000*80mm": "1",
+          "φmanifold(mm)": "φ22x0.75",
+          "φrisers(mm)": "φ8x0.5",
+          "Absor area": "1.98㎡",
+          "Absorber": "Blue titanium"
+        }
+      },
+      {
+        "name": "150L",
+        "model": "UNP-FPS01-150L",
+        "price": "$285.80",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel 2000*1000*80mm": "1",
+          "Absor area": "1.98㎡"
+        }
+      },
+      {
+        "name": "200L",
+        "model": "UNP-FPS01-200L",
+        "price": "$317.02",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel 2000*1000*80mm": "1",
+          "Absor area": "1.98㎡"
+        }
+      },
+      {
+        "name": "250L",
+        "model": "UNP-FPS01-250L",
+        "price": "$431.18",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel 2000*1000*80mm": "2",
+          "Absor area": "3.96㎡"
+        }
+      },
+      {
+        "name": "300L",
+        "model": "UNP-FPS01-300L",
+        "price": "$570.56",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel 2000*1000*80mm": "2",
+          "Absor area": "3.96㎡"
+        }
+      },
+      {
+        "name": "400L",
+        "model": "UNP-FPS01-400L",
+        "price": "$659.90",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel 2000*1000*80mm": "3",
+          "Absor area": "5.94㎡",
+          "Accessories(Extra Cost) | Compression Double Connector 卡套双接/个": "1.8",
+          "Accessories(Extra Cost) | Compression Male Thread Connector 卡套外丝/个": "1.4",
+          "Accessories(Extra Cost) | Compression End Cap 卡套堵头/个": "1.08",
+          "Accessories(Extra Cost)": "8.5",
+          "Accessories(Extra Cost) | PT Valve": "6.3",
+          "Accessories(Extra Cost) | Air Valve": "2.5",
+          "Accessories(Extra Cost) | Check Valve( One -Way Valve)": "2.5",
+          "Accessories(Extra Cost) | Vacuum Valve": "4.4",
+          "Accessories(Extra Cost) | Controller With WIFI": "19.9",
+          "Accessories(Extra Cost) | Heating Element (thermonate, adjustable)": "6.5"
+        }
+      },
+      {
+        "name": "100L (SS)",
+        "model": "UNP-FPS01-100L",
+        "price": "$264.16",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Frame | Type": "Flat Panel bracket",
+          "Degree": "38°",
+          "Collector | Flat panel 2000*1000*80mm": "1",
+          "φmanifold(mm)": "φ22x0.75",
+          "φrisers(mm)": "φ8x0.5",
+          "Absor area": "1.98㎡",
+          "Absorber": "Blue titanium"
+        }
+      },
+      {
+        "name": "150L (SS)",
+        "model": "UNP-FPS01-150L",
+        "price": "$319.28",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel 2000*1000*80mm": "1",
+          "Absor area": "1.98㎡"
+        }
+      },
+      {
+        "name": "200L (SS)",
+        "model": "UNP-FPS01-200L",
+        "price": "$354.64",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel 2000*1000*80mm": "1",
+          "Absor area": "1.98㎡"
+        }
+      },
+      {
+        "name": "250L (SS)",
+        "model": "UNP-FPS01-250L",
+        "price": "$482.56",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel 2000*1000*80mm": "2",
+          "Absor area": "3.96㎡"
+        }
+      },
+      {
+        "name": "300L (SS)",
+        "model": "UNP-FPS01-300L",
+        "price": "$638.56",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel 2000*1000*80mm": "2",
+          "Absor area": "3.96㎡"
+        }
+      },
+      {
+        "name": "400L (SS)",
+        "model": "UNP-FPS01-400L",
+        "price": "$738.40",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel 2000*1000*80mm": "3",
+          "Absor area": "5.94㎡",
+          "Accessories(Extra Cost) | Compression Double Connector 卡套双接/个": "1.8",
+          "Accessories(Extra Cost) | Compression Male Thread Connector 卡套外丝/个": "1.4",
+          "Accessories(Extra Cost) | Compression End Cap 卡套堵头/个": "1.08",
+          "Accessories(Extra Cost)": "8.5",
+          "Accessories(Extra Cost) | PT Valve": "6.3",
+          "Accessories(Extra Cost) | Air Valve": "2.5",
+          "Accessories(Extra Cost) | Check Valve( One -Way Valve)": "2.5",
+          "Accessories(Extra Cost) | Vacuum Valve": "4.4",
+          "Accessories(Extra Cost) | Controller With WIFI": "19.9",
+          "Accessories(Extra Cost) | Heating Element (thermonate, adjustable)": "6.5"
+        }
+      },
+      {
+        "name": "100L (Galvanized Steel)",
+        "model": "UNP-FPS01-100L",
+        "price": "$100.13",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Frame | Type": "Flat Panel bracket",
+          "Degree": "20°",
+          "Collector | Flat panel": "1000*1000*80mm*1Pcs",
+          "φmanifold(mm)": "φ22x0.60",
+          "φrisers(mm)": "φ8x0.40",
+          "Absor area": "1.0㎡",
+          "Absorber": "Black Coating"
+        }
+      },
+      {
+        "name": "150L (Galvanized Steel)",
+        "model": "UNP-FPS01-150L",
+        "price": "$108.47",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel": "1000*1000*80mm*1Pcs",
+          "Absor area": "1.0㎡"
+        }
+      },
+      {
+        "name": "200L (Galvanized Steel)",
+        "model": "UNP-FPS01-200L",
+        "price": "$129.33",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel": "1500*1000*80mm*1Pcs",
+          "Absor area": "1.5㎡"
+        }
+      },
+      {
+        "name": "250L (Galvanized Steel)",
+        "model": "UNP-FPS01-250L",
+        "price": "$149.15",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel": "1500*1000*80mm*1Pcs",
+          "Absor area": "2.0㎡"
+        }
+      },
+      {
+        "name": "300L (Galvanized Steel)",
+        "model": "UNP-FPS01-300L",
+        "price": "$156.45",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel": "2000*1000*80mm*1Pcs",
+          "Absor area": "2.0㎡",
+          "Accessories(Extra Cost) | Compression Double Connector 卡套双接/个": "1.8",
+          "Accessories(Extra Cost) | Compression Male Thread Connector 卡套外丝/个": "1.4",
+          "Accessories(Extra Cost) | Compression End Cap 卡套堵头/个": "1.08",
+          "Accessories(Extra Cost)": "8.5",
+          "Accessories(Extra Cost) | Controller With WIFI": "19.9",
+          "Accessories(Extra Cost) | Heating Element (thermonate, adjustable)": "6.5"
+        }
+      },
+      {
+        "name": "100L",
+        "model": "UNP-FPS01-100L",
+        "price": "$103.16",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Frame | Type": "Flat Panel bracket",
+          "Degree": "20°",
+          "Collector | Flat panel": "1000*1000*80mm*1Pcs",
+          "φmanifold(mm)": "φ22x0.60",
+          "φrisers(mm)": "φ8x0.40",
+          "Absor area": "1.0㎡",
+          "Absorber": "Black Coating"
+        }
+      },
+      {
+        "name": "150L",
+        "model": "UNP-FPS01-150L",
+        "price": "$111.49",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel": "1000*1000*80mm*1Pcs",
+          "Absor area": "1.0㎡"
+        }
+      },
+      {
+        "name": "200L",
+        "model": "UNP-FPS01-200L",
+        "price": "$133.38",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel": "1500*1000*80mm*1Pcs",
+          "Absor area": "1.5㎡"
+        }
+      },
+      {
+        "name": "250L",
+        "model": "UNP-FPS01-250L",
+        "price": "$156.30",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel": "1500*1000*80mm*1Pcs",
+          "Absor area": "2.0㎡"
+        }
+      },
+      {
+        "name": "300L",
+        "model": "UNP-FPS01-300L",
+        "price": "$163.59",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel": "2000*1000*80mm*1Pcs",
+          "Absor area": "2.0㎡",
+          "Accessories(Extra Cost) | Compression Double Connector 卡套双接/个": "1.8",
+          "Accessories(Extra Cost) | Compression Male Thread Connector 卡套外丝/个": "1.4",
+          "Accessories(Extra Cost) | Compression End Cap 卡套堵头/个": "1.08",
+          "Accessories(Extra Cost)": "8.5",
+          "Accessories(Extra Cost) | Controller With WIFI": "19.9",
+          "Accessories(Extra Cost) | Heating Element (thermonate, adjustable)": "6.5"
+        }
+      },
+      {
+        "name": "100L (Only Flat Panel)",
+        "model": "UNP-FPS01-100L",
+        "price": "$57.31",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Frame | Type": "Flat Panel bracket",
+          "Degree": "20°",
+          "Collector | Flat panel": "1000*1000*80mm*1Pcs",
+          "φmanifold(mm)": "φ22x0.60",
+          "φrisers(mm)": "φ8x0.40",
+          "Absor area": "1.0㎡",
+          "Absorber": "Black Coating"
+        }
+      },
+      {
+        "name": "150L (Only Flat Panel)",
+        "model": "UNP-FPS01-150L",
+        "price": "$57.31",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel": "1000*1000*80mm*1Pcs",
+          "Absor area": "1.0㎡"
+        }
+      },
+      {
+        "name": "200L (Only Flat Panel)",
+        "model": "UNP-FPS01-200L",
+        "price": "$69.81",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel": "1500*1000*80mm*1Pcs",
+          "Absor area": "1.5㎡"
+        }
+      },
+      {
+        "name": "250L (Only Flat Panel)",
+        "model": "UNP-FPS01-250L",
+        "price": "$80.23",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel": "1500*1000*80mm*1Pcs",
+          "Absor area": "2.0㎡"
+        }
+      },
+      {
+        "name": "300L (Only Flat Panel)",
+        "model": "UNP-FPS01-300L",
+        "price": "$80.23",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | Flat panel": "2000*1000*80mm*1Pcs",
+          "Absor area": "2.0㎡",
+          "Accessories(Extra Cost) | Compression Double Connector 卡套双接/个": "1.8",
+          "Accessories(Extra Cost) | Compression Male Thread Connector 卡套外丝/个": "1.4",
+          "Accessories(Extra Cost) | Compression End Cap 卡套堵头/个": "1.08",
+          "Accessories(Extra Cost)": "8.5",
+          "Accessories(Extra Cost) | Controller With WIFI": "19.9",
+          "Accessories(Extra Cost) | Heating Element (thermonate, adjustable)": "6.5"
+        }
+      }
+    ]
+  },
+  {
+    "category": "s02",
+    "series": "UNP-S02",
+    "seriesName": "Non-Pressurized Heater",
+    "description": "Non-pressurized solar water heaters",
+    "priceRange": "$56.78 ~ $450.47",
+    "tags": [
+      "Factory EXW"
+    ],
+    "variants": [
+      {
+        "name": "6 (Galvanized Steel)",
+        "model": "UNP-S02-6",
+        "price": "$56.78",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Hole to hole Distance": "75mm",
+          "Frame | Type": "U-type",
+          "Degree": "20/27°",
+          "Collector | No.s of Tube": "6",
+          "Absor area": "0.48㎡",
+          "Tube": "58/1800 Three Layers Coating"
+        }
+      },
+      {
+        "name": "8 (Galvanized Steel)",
+        "model": "UNP-S02-8",
+        "price": "$63.72",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "8",
+          "Absor area": "0.64㎡"
+        }
+      },
+      {
+        "name": "10 (Galvanized Steel)",
+        "model": "UNP-S02-10",
+        "price": "$71.76",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "10",
+          "Absor area": "0.8㎡"
+        }
+      },
+      {
+        "name": "12 (Galvanized Steel)",
+        "model": "UNP-S02-12",
+        "price": "$79.32",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "12",
+          "Absor area": "0.96㎡"
+        }
+      },
+      {
+        "name": "15 (Galvanized Steel)",
+        "model": "UNP-S02-15",
+        "price": "$91.29",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "15",
+          "Absor area": "1.97㎡"
+        }
+      },
+      {
+        "name": "18 (Galvanized Steel)",
+        "model": "UNP-S02-18",
+        "price": "$103.67",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "18",
+          "Absor area": "2.36㎡"
+        }
+      },
+      {
+        "name": "20 (Galvanized Steel)",
+        "model": "UNP-S02-20",
+        "price": "$111.60",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "20",
+          "Absor area": "2.62㎡"
+        }
+      },
+      {
+        "name": "24 (Galvanized Steel)",
+        "model": "UNP-S02-24",
+        "price": "$132.77",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "24",
+          "Absor area": "3.15㎡"
+        }
+      },
+      {
+        "name": "25 (Galvanized Steel)",
+        "model": "UNP-S02-25",
+        "price": "$138.74",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "25",
+          "Absor area": "3.28㎡"
+        }
+      },
+      {
+        "name": "30 (Galvanized Steel)",
+        "model": "UNP-S02-30",
+        "price": "$157.06",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "30",
+          "Absor area": "3.95㎡"
+        }
+      },
+      {
+        "name": "36 (Galvanized Steel)",
+        "model": "UNP-S02-36",
+        "price": "$185.85",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "36",
+          "Absor area": "4.75㎡"
+        }
+      },
+      {
+        "name": "40 (Galvanized Steel)",
+        "model": "UNP-S02-40",
+        "price": "$226.46",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "40",
+          "Absor area": "5.28㎡"
+        }
+      },
+      {
+        "name": "50 (Galvanized Steel)",
+        "model": "UNP-S02-50",
+        "price": "$302.12",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "50",
+          "Absor area": "6.59㎡",
+          "Accessories(Extra Cost) | Controller With WIFI": "19.9",
+          "Accessories(Extra Cost) | Heating Element (thermonate, adjustable)": "6.5",
+          "Accessories(Extra Cost) | Air Vent Base": "0.51"
+        }
+      },
+      {
+        "name": "6 (Stainless Steel)",
+        "model": "UNP-S02-6",
+        "price": "$58.58",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Hole to hole Distance": "75mm",
+          "Frame | Type": "U-type",
+          "Degree": "20/27°",
+          "Collector | No.s of Tube": "6",
+          "Absor area": "0.48㎡",
+          "Tube": "58/1800 Three Layers Coating"
+        }
+      },
+      {
+        "name": "8 (Stainless Steel)",
+        "model": "UNP-S02-8",
+        "price": "$65.74",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "8",
+          "Absor area": "0.64㎡"
+        }
+      },
+      {
+        "name": "10 (Stainless Steel)",
+        "model": "UNP-S02-10",
+        "price": "$74.03",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "10",
+          "Absor area": "0.8㎡"
+        }
+      },
+      {
+        "name": "12 (Stainless Steel)",
+        "model": "UNP-S02-12",
+        "price": "$81.84",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "12",
+          "Absor area": "0.96㎡"
+        }
+      },
+      {
+        "name": "15 (Stainless Steel)",
+        "model": "UNP-S02-15",
+        "price": "$94.18",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "15",
+          "Absor area": "1.97㎡"
+        }
+      },
+      {
+        "name": "18 (Stainless Steel)",
+        "model": "UNP-S02-18",
+        "price": "$106.96",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "18",
+          "Absor area": "2.36㎡"
+        }
+      },
+      {
+        "name": "20 (Stainless Steel)",
+        "model": "UNP-S02-20",
+        "price": "$115.14",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "20",
+          "Absor area": "2.62㎡"
+        }
+      },
+      {
+        "name": "24 (Stainless Steel)",
+        "model": "UNP-S02-24",
+        "price": "$136.98",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "24",
+          "Absor area": "3.15㎡"
+        }
+      },
+      {
+        "name": "25 (Stainless Steel)",
+        "model": "UNP-S02-25",
+        "price": "$143.14",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "25",
+          "Absor area": "3.28㎡"
+        }
+      },
+      {
+        "name": "30 (Stainless Steel)",
+        "model": "UNP-S02-30",
+        "price": "$162.04",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "30",
+          "Absor area": "3.95㎡"
+        }
+      },
+      {
+        "name": "36 (Stainless Steel)",
+        "model": "UNP-S02-36",
+        "price": "$191.74",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "36",
+          "Absor area": "4.75㎡"
+        }
+      },
+      {
+        "name": "40 (Stainless Steel)",
+        "model": "UNP-S02-40",
+        "price": "$233.63",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "40",
+          "Absor area": "5.28㎡"
+        }
+      },
+      {
+        "name": "50 (Stainless Steel)",
+        "model": "UNP-S02-50",
+        "price": "$311.70",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "50",
+          "Absor area": "6.59㎡",
+          "Accessories(Extra Cost) | Controller With WIFI": "19.9",
+          "Accessories(Extra Cost) | Heating Element (thermonate, adjustable)": "6.5",
+          "Accessories(Extra Cost) | Air Vent Base": "0.51"
+        }
+      },
+      {
+        "name": "8 (Galvanized Steel)",
+        "model": "UNP-G01/02-8",
+        "price": "$62.70",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Hole to hole Distance": "75mm",
+          "Frame | Type": "7*7-type",
+          "Degree": "38/45°",
+          "Collector | No.s of Tube": "8",
+          "Absor area": "0.64㎡",
+          "Tube": "58/1800 Three Layers Coating"
+        }
+      },
+      {
+        "name": "10 (Galvanized Steel)",
+        "model": "UNP-G01/02-10",
+        "price": "$70.40",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "10",
+          "Absor area": "0.8㎡"
+        }
+      },
+      {
+        "name": "12 (Galvanized Steel)",
+        "model": "UNP-G01/02-12",
+        "price": "$78.10",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "12",
+          "Absor area": "0.96㎡"
+        }
+      },
+      {
+        "name": "15 (Galvanized Steel)",
+        "model": "UNP-G01/02-15",
+        "price": "$89.10",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "15",
+          "Absor area": "1.97㎡"
+        }
+      },
+      {
+        "name": "18 (Galvanized Steel)",
+        "model": "UNP-G01/02-18",
+        "price": "$101.20",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "18",
+          "Absor area": "2.36㎡"
+        }
+      },
+      {
+        "name": "20 (Galvanized Steel)",
+        "model": "UNP-G01/02-20",
+        "price": "$108.90",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "20",
+          "Absor area": "2.62㎡"
+        }
+      },
+      {
+        "name": "24 (Galvanized Steel)",
+        "model": "UNP-G01/02-24",
+        "price": "$129.80",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "24",
+          "Absor area": "3.15㎡"
+        }
+      },
+      {
+        "name": "30 (Galvanized Steel)",
+        "model": "UNP-G01/02-30",
+        "price": "$154.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "30",
+          "Absor area": "3.95㎡"
+        }
+      },
+      {
+        "name": "36 (Galvanized Steel)",
+        "model": "UNP-G01/02-36",
+        "price": "$182.60",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "36",
+          "Absor area": "4.75㎡",
+          "Accessories(Extra Cost) | Controller With WIFI": "19.9",
+          "Accessories(Extra Cost) | Heating Element (thermonate, adjustable)": "6.5",
+          "Accessories(Extra Cost) | Air Vent Base": "0.51"
+        }
+      },
+      {
+        "name": "8 (Anti corrosion)",
+        "model": "UNP-G01/02-8",
+        "price": "$70.40",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Hole to hole Distance": "75mm",
+          "Frame | Type": "7*7-type",
+          "Degree": "38/45°",
+          "Collector | No.s of Tube": "8",
+          "Absor area": "0.64㎡",
+          "Tube": "58/1800 Three Layers Coating"
+        }
+      },
+      {
+        "name": "10 (Anti corrosion)",
+        "model": "UNP-G01/02-10",
+        "price": "$79.20",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "10",
+          "Absor area": "0.8㎡"
+        }
+      },
+      {
+        "name": "12 (Anti corrosion)",
+        "model": "UNP-G01/02-12",
+        "price": "$88.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "12",
+          "Absor area": "0.96㎡"
+        }
+      },
+      {
+        "name": "15 (Anti corrosion)",
+        "model": "UNP-G01/02-15",
+        "price": "$101.20",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "15",
+          "Absor area": "1.97㎡"
+        }
+      },
+      {
+        "name": "18 (Anti corrosion)",
+        "model": "UNP-G01/02-18",
+        "price": "$114.40",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "18",
+          "Absor area": "2.36㎡"
+        }
+      },
+      {
+        "name": "20 (Anti corrosion)",
+        "model": "UNP-G01/02-20",
+        "price": "$123.20",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "20",
+          "Absor area": "2.62㎡"
+        }
+      },
+      {
+        "name": "24 (Anti corrosion)",
+        "model": "UNP-G01/02-24",
+        "price": "$146.30",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "24",
+          "Absor area": "3.15㎡"
+        }
+      },
+      {
+        "name": "30 (Anti corrosion)",
+        "model": "UNP-G01/02-30",
+        "price": "$172.70",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "30",
+          "Absor area": "3.95㎡"
+        }
+      },
+      {
+        "name": "36 (Anti corrosion)",
+        "model": "UNP-G01/02-36",
+        "price": "$205.70",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "36",
+          "Absor area": "4.75㎡",
+          "Accessories(Extra Cost) | Controller With WIFI": "19.9",
+          "Accessories(Extra Cost) | Heating Element (thermonate, adjustable)": "6.5",
+          "Accessories(Extra Cost) | Air Vent Base": "0.51"
+        }
+      },
+      {
+        "name": "8 (Stainless Steel)",
+        "model": "UNP-G01/02-8",
+        "price": "$72.45",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Hole to hole Distance": "75mm",
+          "Frame | Type": "7*7-type",
+          "Degree": "38/45°",
+          "Collector | No.s of Tube": "8",
+          "Absor area": "0.64㎡",
+          "Tube": "58/1800 Three Layers Coating"
+        }
+      },
+      {
+        "name": "10 (Stainless Steel)",
+        "model": "UNP-G01/02-10",
+        "price": "$81.50",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "10",
+          "Absor area": "0.8㎡"
+        }
+      },
+      {
+        "name": "12 (Stainless Steel)",
+        "model": "UNP-G01/02-12",
+        "price": "$90.56",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "12",
+          "Absor area": "0.96㎡"
+        }
+      },
+      {
+        "name": "15 (Stainless Steel)",
+        "model": "UNP-G01/02-15",
+        "price": "$104.14",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "15",
+          "Absor area": "1.97㎡"
+        }
+      },
+      {
+        "name": "18 (Stainless Steel)",
+        "model": "UNP-G01/02-18",
+        "price": "$117.73",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "18",
+          "Absor area": "2.36㎡"
+        }
+      },
+      {
+        "name": "20 (Stainless Steel)",
+        "model": "UNP-G01/02-20",
+        "price": "$126.78",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "20",
+          "Absor area": "2.62㎡"
+        }
+      },
+      {
+        "name": "24 (Stainless Steel)",
+        "model": "UNP-G01/02-24",
+        "price": "$150.56",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "24",
+          "Absor area": "3.15㎡"
+        }
+      },
+      {
+        "name": "30 (Stainless Steel)",
+        "model": "UNP-G01/02-30",
+        "price": "$177.72",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "30",
+          "Absor area": "3.95㎡"
+        }
+      },
+      {
+        "name": "36 (Stainless Steel)",
+        "model": "UNP-G01/02-36",
+        "price": "$211.68",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "36",
+          "Absor area": "4.75㎡",
+          "Accessories(Extra Cost) | Controller With WIFI": "19.9",
+          "Accessories(Extra Cost) | Heating Element (thermonate, adjustable)": "6.5",
+          "Accessories(Extra Cost) | Air Vent Base": "0.51"
+        }
+      },
+      {
+        "name": "10",
+        "model": "UNP-P02-10",
+        "price": "$135.89",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Hole to hole Distance": "75mm",
+          "Frame | Type": "7*7",
+          "Degree": "27/38/45°",
+          "Collector | No.s of Tube": "10",
+          "Absor area": "1.36㎡",
+          "Tube": "58/1800 Three Layers Coating"
+        }
+      },
+      {
+        "name": "12",
+        "model": "UNP-P02-12",
+        "price": "$151.94",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "12",
+          "Absor area": "1.64㎡"
+        }
+      },
+      {
+        "name": "15",
+        "model": "UNP-P02-15",
+        "price": "$176.55",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "15",
+          "Absor area": "2.044㎡"
+        }
+      },
+      {
+        "name": "18",
+        "model": "UNP-P02-18",
+        "price": "$202.23",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "18",
+          "Absor area": "2.26㎡"
+        }
+      },
+      {
+        "name": "20",
+        "model": "UNP-P02-20",
+        "price": "$218.28",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "20",
+          "Absor area": "2.72㎡"
+        }
+      },
+      {
+        "name": "24",
+        "model": "UNP-P02-24",
+        "price": "$253.59",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "24",
+          "Absor area": "3.27㎡"
+        }
+      },
+      {
+        "name": "30",
+        "model": "UNP-P02-30",
+        "price": "$314.58",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "30",
+          "Absor area": "3.41㎡"
+        }
+      },
+      {
+        "name": "36",
+        "model": "UNP-P02-36",
+        "price": "$349.89",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "36",
+          "Absor area": "3.91㎡",
+          "Accessories(Extra Cost) | Controller With WIFI": "19.9",
+          "Accessories(Extra Cost) | Heating Element (thermonate, adjustable)": "6.5",
+          "Accessories(Extra Cost) | Air Vent Base": "0.51"
+        }
+      },
+      {
+        "name": "10 (Stainless Steel)",
+        "model": "UNP-P02-10",
+        "price": "$140.17",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Hole to hole Distance": "75mm",
+          "Frame | Type": "7*7",
+          "Degree": "27/38/45°",
+          "Collector | No.s of Tube": "10",
+          "Absor area": "1.36㎡",
+          "Tube": "58/1800 Three Layers Coating"
+        }
+      },
+      {
+        "name": "12 (Stainless Steel)",
+        "model": "UNP-P02-12",
+        "price": "$165.85",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "12",
+          "Absor area": "1.64㎡"
+        }
+      },
+      {
+        "name": "15 (Stainless Steel)",
+        "model": "UNP-P02-15",
+        "price": "$203.30",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "15",
+          "Absor area": "2.044㎡"
+        }
+      },
+      {
+        "name": "18 (Stainless Steel)",
+        "model": "UNP-P02-18",
+        "price": "$238.61",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "18",
+          "Absor area": "2.26㎡"
+        }
+      },
+      {
+        "name": "20 (Stainless Steel)",
+        "model": "UNP-P02-20",
+        "price": "$260.01",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "20",
+          "Absor area": "2.72㎡"
+        }
+      },
+      {
+        "name": "24 (Stainless Steel)",
+        "model": "UNP-P02-24",
+        "price": "$310.30",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "24",
+          "Absor area": "3.27㎡"
+        }
+      },
+      {
+        "name": "30 (Stainless Steel)",
+        "model": "UNP-P02-30",
+        "price": "$384.13",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "30",
+          "Absor area": "3.41㎡"
+        }
+      },
+      {
+        "name": "36 (Stainless Steel)",
+        "model": "UNP-P02-36",
+        "price": "$450.47",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "36",
+          "Absor area": "3.91㎡",
+          "Accessories(Extra Cost) | Controller With WIFI": "19.9",
+          "Accessories(Extra Cost) | Heating Element (thermonate, adjustable)": "6.5",
+          "Accessories(Extra Cost) | Air Vent Base": "0.51"
+        }
+      }
+    ]
+  },
+  {
+    "category": "heatpump",
+    "series": "UNP-HP",
+    "seriesName": "All-in-One Heat Pump",
+    "description": "All-in-one heat pump water heaters",
+    "priceRange": "$113.00 ~ $788.00",
+    "tags": [
+      "Factory EXW"
+    ],
+    "variants": [
+      {
+        "name": "150AA1",
+        "model": "UNP-WSVT-150AA1",
+        "price": "$618.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Power supply": "120V 60HZ",
+          "Heating capacity": "1500 W",
+          "Rated input power": "350 W",
+          "Maximum input power(include electrical heating)": "2685 W",
+          "Maximum current": "12.2 A",
+          "COP": "3.82",
+          "Refrigerant": "R134a",
+          "Compressor": "GMCC",
+          "Four-way valve": "SHF-4",
+          "Throttling device": "Electronic expansion valve",
+          "Evaporator": "Hydrophilic aluminum foil and \ncopper pipe",
+          "Fan Motor": "YDK25/32",
+          "Fan": "φ150",
+          "Wire controller": "Digital screen, touch buttons",
+          "High/low pressure switch": "2.8~2.4/0.05-0.15 Mpa",
+          "Power cord specifications": "3m X 1.5mm²",
+          "Heating rate": "39 L/h",
+          "Max outlet water temperature（heat pump mode)": "70 ℃",
+          "Rated outlet water temp": "55 ℃",
+          "Ambient temperature": "﹣15～46 ℃",
+          "Noise": "≤52 dB(A)",
+          "Housing Material": "Powder coated galvanized steel",
+          "Water connection size": "G1/2\"",
+          "Heat exchanger type": "Microchannel heat exchanger",
+          "Built-in pressure protection": "0.8MPa",
+          "Auxiliary electric heating": "2000 W",
+          "Accessory Bag": "one G1/2 relief valve、one pipe adapter、Manual",
+          "Net Weight": "85 kg"
+        }
+      },
+      {
+        "name": "200AA1",
+        "model": "UNP-WSVT-200AA1",
+        "price": "$699.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Rated input power": "470 W",
+          "Maximum input power(include electrical heating)": "2685 W",
+          "Maximum current": "12.2 A",
+          "COP": "3.82",
+          "Compressor": "GMCC",
+          "Power cord specifications": "3m X 1.5mm²",
+          "Heating rate": "39 L/h",
+          "Waterproof level": "IPX4",
+          "Noise": "≤52 dB(A)",
+          "Water connection size": "G1/2\"",
+          "Auxiliary electric heating": "2000 W",
+          "Accessory Bag": "one G1/2 relief valve、one pipe adapter、Manual",
+          "Net Weight": "98 Kg"
+        }
+      },
+      {
+        "name": "300AA1",
+        "model": "UNP-WSVT-300AA1",
+        "price": "$788.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Rated input power": "623W",
+          "Maximum input power(include electrical heating)": "2890 W",
+          "Maximum current": "13.4 A",
+          "COP": "3.88",
+          "Compressor": "Panasonic",
+          "Power cord specifications": "3m X2.5mm²",
+          "Heating rate": "52L/h",
+          "Waterproof level": "IPX4",
+          "Noise": "≤53 dB(A)",
+          "Water connection size": "G3/4\"",
+          "Auxiliary electric heating": "2000 W",
+          "Accessory Bag": "one G3/4 relief valve、Manual",
+          "Net Weight": "132 Kg"
+        }
+      },
+      {
+        "name": "004TA1/R410AF",
+        "model": "UNP-004TA1/R410AF",
+        "price": "$470.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Power Supply": "110V or 220V/1/50Hz",
+          "Heating capacity (kw)": "3.6",
+          "Power input（W）": "860",
+          "COP": "4.18",
+          "Max power input(kw)": "1.45",
+          "Max Current(A)": "6.5",
+          "Rated Hot water(L/H)": "80",
+          "Refrigerant": "R410A",
+          "Air flow Direction": "Horizontal",
+          "Water pump inide (WILO)": "Build-in",
+          "Water pressure Drop (Kpa)": "35",
+          "working temperature range(℃)": "From-15 to 43",
+          "Noise (db)": "47",
+          "Net weight (kg)": "50",
+          "water connection (mm)": "20"
+        }
+      },
+      {
+        "name": "006TA1/R410AF",
+        "model": "UNP-006TA1/R410AF",
+        "price": "$525.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Power Supply": "220V/1/50Hz",
+          "Heating capacity (kw)": "5.4",
+          "Power input（W）": "1.26",
+          "COP": "4.29",
+          "Max power input(kw)": "2.01",
+          "Max Current(A)": "9",
+          "Rated Hot water(L/H)": "120",
+          "Refrigerant": "R32",
+          "Air flow Direction": "Horizontal",
+          "Water pump inide (WILO)": "Build-in",
+          "Water pressure Drop (Kpa)": "35",
+          "working temperature range(℃)": "From-15 to 43",
+          "Noise (db)": "49",
+          "Net weight (kg)": "54",
+          "water connection (mm)": "20"
+        }
+      },
+      {
+        "name": "008TA1/R410AF",
+        "model": "UNP-008TA1/R410AF",
+        "price": "$616.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Power Supply": "220V/1/50Hz",
+          "Heating capacity (kw)": "7.6",
+          "Power input（W）": "1.81",
+          "COP": "4.2",
+          "Max power input(kw)": "2.75",
+          "Max Current(A)": "12",
+          "Rated Hot water(L/H)": "165",
+          "Refrigerant": "R32",
+          "Air flow Direction": "Horizontal",
+          "Water pump inide (WILO)": "Build-in",
+          "Water pressure Drop (Kpa)": "40",
+          "working temperature range(℃)": "From-15 to 43",
+          "Noise (db)": "52",
+          "Net weight (kg)": "68",
+          "water connection (mm)": "20"
+        }
+      },
+      {
+        "name": "40G",
+        "model": "UNP-DWH-40G",
+        "price": "$275.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Configuration details": "1.tank:1set\n2.Electric heating element: 1 set\n3.Pressure & Temperature (P&T) valve: 1 pc",
+          "Nominal Liters Rated Capacity": "150",
+          "Nominal Gallon Rated Capacity": "40",
+          "Liters Rated Storage Capacity": "142.5",
+          "Gallon Rated Storage Capacity": "38",
+          "Connection Size": "3/4'' NPT",
+          "Electric Heater": "3000W*1",
+          "Net Weight(Kg)": "50",
+          "Gross Weight (Kg)": "54",
+          "Circulation coil": "15m",
+          "Type A Heat Exchanger": "Stainless Steel 316L Coil ( Build-in )",
+          "Type B Heat Exchanger": "Aluminum Coil (Optional)"
+        }
+      },
+      {
+        "name": "50G",
+        "model": "UNP-DWH-50G",
+        "price": "$357.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Nominal Liters Rated Capacity": "200",
+          "Nominal Gallon Rated Capacity": "50",
+          "Liters Rated Storage Capacity": "190",
+          "Gallon Rated Storage Capacity": "47.5",
+          "Net Weight(Kg)": "70",
+          "Gross Weight (Kg)": "75",
+          "Circulation coil": "20m"
+        }
+      },
+      {
+        "name": "80G",
+        "model": "UNP-DWH-80G",
+        "price": "$495.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Nominal Liters Rated Capacity": "300",
+          "Nominal Gallon Rated Capacity": "80",
+          "Liters Rated Storage Capacity": "285",
+          "Gallon Rated Storage Capacity": "76",
+          "Net Weight(Kg)": "94",
+          "Gross Weight (Kg)": "100",
+          "Circulation coil": "30m"
+        }
+      },
+      {
+        "name": "B30G",
+        "model": "UNP-DWH-B30G",
+        "price": "$113.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Nominal Liters Rated Capacity": "150",
+          "Nominal Gallon Rated Capacity": "30",
+          "Liters Rated Storage Capacity": "142.5",
+          "Gallon Rated Storage Capacity": "28.5",
+          "Connection Size": "3/4'' NPT",
+          "Net Weight(Kg)": "35",
+          "Gross Weight (Kg)": "39"
+        }
+      },
+      {
+        "name": "B50G",
+        "model": "UNP-DWH-B50G",
+        "price": "$196.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Nominal Liters Rated Capacity": "200",
+          "Nominal Gallon Rated Capacity": "50",
+          "Liters Rated Storage Capacity": "190",
+          "Gallon Rated Storage Capacity": "47.5",
+          "Net Weight(Kg)": "48",
+          "Gross Weight (Kg)": "53"
+        }
+      },
+      {
+        "name": "B80G",
+        "model": "UNP-DWH-B80G",
+        "price": "$258.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Nominal Liters Rated Capacity": "300",
+          "Nominal Gallon Rated Capacity": "80",
+          "Liters Rated Storage Capacity": "285",
+          "Gallon Rated Storage Capacity": "76",
+          "Net Weight(Kg)": "59",
+          "Gross Weight (Kg)": "65"
+        }
+      }
+    ]
+  },
+  {
+    "category": "ewh",
+    "series": "UNP-INE",
+    "seriesName": "Electric Water Heater",
+    "description": "Electric water heaters",
+    "priceRange": "$45.54 ~ $72.50",
+    "tags": [
+      "Factory EXW"
+    ],
+    "variants": [
+      {
+        "name": "40",
+        "model": "UNP-INE-40",
+        "price": "$45.54",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Outer Casing": "Galvanized Steel",
+          "Differential Temperature Control": "5°C",
+          "Heating Element": "Stainless Steel 310",
+          "Rated Heating Power": "1500 W (110V / 220V optional)",
+          "Maximum Working Pressure": "0.23 bar (3.34 psi)",
+          "Control Method": "Smart Control + WiFi",
+          "Net Weight": "14.5kg"
+        }
+      },
+      {
+        "name": "50",
+        "model": "UNP-INE-50",
+        "price": "$47.40",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Net Weight": "17kg"
+        }
+      },
+      {
+        "name": "80",
+        "model": "UNP-INE-80",
+        "price": "$52.80",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Net Weight": "20kg"
+        }
+      },
+      {
+        "name": "40",
+        "model": "UNP-IHE-40",
+        "price": "$50.59",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Outer Casing": "ABS",
+          "Differential Temperature Control": "5°C",
+          "Heating Element": "Stainless Steel 310",
+          "Rated Heating Power": "1500 W (110V / 220V optional)",
+          "Maximum Working Pressure": "150 psi (≈10 bar)",
+          "Control Method": "Mechanical thermostat",
+          "Net Weight": "18kg"
+        }
+      },
+      {
+        "name": "50",
+        "model": "UNP-IHE-50",
+        "price": "$57.34",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Net Weight": "21kg"
+        }
+      },
+      {
+        "name": "80",
+        "model": "UNP-IHE-80",
+        "price": "$72.50",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Net Weight": "31kg"
+        }
+      }
+    ]
+  },
+  {
+    "category": "collector",
+    "series": "UNP-FP01",
+    "seriesName": "Solar Collector",
+    "description": "Solar thermal collectors",
+    "priceRange": "$68.04 ~ $345.00",
+    "tags": [
+      "Factory EXW"
+    ],
+    "variants": [
+      {
+        "name": "2000*1000*80mm",
+        "model": "UNP-FP01-2000*1000*80mm",
+        "price": "$105.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Overall area(m2)": "2",
+          "Absorber area(m2)": "1.75",
+          "Aperture area(m2)": "1.86",
+          "LxWx H(mm)": "2000x1000x80",
+          "Weight(kg)": "32",
+          "Absorber capacity(L)": "2.54",
+          "Housing": "Aluminum-alloy",
+          "Surface": "Black Chrome/Blue Titanium",
+          "Back plate": "Steel plate",
+          "Absorber sheet": "Cu/Al,oxide film",
+          "Absorption(%)": "94",
+          "Emission(%)": "8(80°±5°)",
+          "φmanifold(mm)": "φ22x0.75",
+          "φrisers(mm)": "φ8x0.5",
+          "Glass": "Woven ultra white toughened solar safty glass",
+          "Transmittance of glass(%)": "≥91",
+          "Max.Stagnation Temp.": "250℃ under test conditions",
+          "Rated copearting pressure": "1.2Mpa",
+          "Heat transfer medium": "Polypropylene glycol/water mixture"
+        }
+      },
+      {
+        "name": "1000*1000*80mm",
+        "model": "UNP-FP01-1000*1000*80mm",
+        "price": "$71.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Overall area(m2)": "1",
+          "Absorber area(m2)": "0.875",
+          "Aperture area(m2)": "0.93",
+          "LxWx H(mm)": "1000x1000x80",
+          "Weight(kg)": "24",
+          "Absorber capacity(L)": "1.27",
+          "Absorption(%)": "94",
+          "Emission(%)": "8(80°±5°)",
+          "Rated copearting pressure": "1.2Mpa"
+        }
+      },
+      {
+        "name": "1500*1000*80mm",
+        "model": "UNP-FP01-1500*1000*80mm",
+        "price": "$89.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Overall area(m2)": "1.5",
+          "Absorber area(m2)": "1.3125",
+          "Aperture area(m2)": "1.395",
+          "LxWx H(mm)": "1500x1000x80",
+          "Weight(kg)": "26",
+          "Absorber capacity(L)": "1.9",
+          "Absorption(%)": "94",
+          "Emission(%)": "8(80°±5°)",
+          "Rated copearting pressure": "1.2Mpa"
+        }
+      },
+      {
+        "name": "2000*1500*80mm",
+        "model": "UNP-FP01-2000*1500*80mm",
+        "price": "$153.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Overall area(m2)": "3",
+          "Absorber area(m2)": "2.625",
+          "Aperture area(m2)": "2.79",
+          "LxWx H(mm)": "2000x1500x80",
+          "Weight(kg)": "29",
+          "Absorber capacity(L)": "3.81",
+          "Absorption(%)": "94",
+          "Emission(%)": "8(80°±5°)",
+          "Rated copearting pressure": "1.2Mpa"
+        }
+      },
+      {
+        "name": "12",
+        "model": "UNP-E01-12",
+        "price": "$68.04",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {}
+      },
+      {
+        "name": "15",
+        "model": "UNP-E01-15",
+        "price": "$84.24",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {}
+      },
+      {
+        "name": "18",
+        "model": "UNP-E01-18",
+        "price": "$101.52",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {}
+      },
+      {
+        "name": "20",
+        "model": "UNP-E01-20",
+        "price": "$112.97",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {}
+      },
+      {
+        "name": "24",
+        "model": "UNP-E01-24",
+        "price": "$132.30",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {}
+      },
+      {
+        "name": "25",
+        "model": "UNP-E01-25",
+        "price": "$132.30",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {}
+      },
+      {
+        "name": "30",
+        "model": "UNP-E01-30",
+        "price": "$165.24",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {}
+      },
+      {
+        "name": "36",
+        "model": "UNP-E01-36",
+        "price": "$195.48",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {}
+      },
+      {
+        "name": "40",
+        "model": "UNP-E02-40",
+        "price": "$212.76",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {}
+      },
+      {
+        "name": "50",
+        "model": "UNP-E02-50",
+        "price": "$265.68",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {}
+      },
+      {
+        "name": "60",
+        "model": "UNP-E02-60",
+        "price": "$318.60",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {}
+      },
+      {
+        "name": "12",
+        "model": "UNP-HP01-12",
+        "price": "$141.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Inner": "Copper channel*0.75mm",
+          "Outer": "Aluminum alloy 1.8mm",
+          "Hole to hole Distance": "75mm",
+          "Frame | Type": "7*7",
+          "Degree": "38°",
+          "Collector | No.s of Tube": "12",
+          "Absor area": "0.96㎡",
+          "Tube": "Borosilicate glass 3.3",
+          "Heat pipe": "Copper heat pipe 58*1700mm*0.4mm thickness, condenser head 70mm, diameter 14mm, port insulation layer 30mm"
+        }
+      },
+      {
+        "name": "15",
+        "model": "UNP-HP01-15",
+        "price": "$176.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "15",
+          "Absor area": "1.2㎡"
+        }
+      },
+      {
+        "name": "18",
+        "model": "UNP-HP01-18",
+        "price": "$210.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "18",
+          "Absor area": "1.44㎡"
+        }
+      },
+      {
+        "name": "20",
+        "model": "UNP-HP01-20",
+        "price": "$233.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "20",
+          "Absor area": "1.6㎡"
+        }
+      },
+      {
+        "name": "24",
+        "model": "UNP-HP01-24",
+        "price": "$278.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "24",
+          "Absor area": "1.92㎡"
+        }
+      },
+      {
+        "name": "30",
+        "model": "UNP-HP01-30",
+        "price": "$345.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "Collector | No.s of Tube": "30",
+          "Absor area": "2.4㎡"
+        }
+      },
+      {
+        "name": "450W",
+        "model": "UNP-PVT-450W",
+        "price": "$211.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "CHARACTRISRICS | Nominal power | CHARACTRISRICS | Nominal power": "450W",
+          "Rated voltage (Vmpp) | Voltage at maximum Power（Vmp/v）": "41.5",
+          "Rated current (Impp) | Current at Maximum Power（Imp/A）": "10.85",
+          "Open Circuit Voltage(Voc) | Open Circuit Voltage(Voc/V)": "49.3±3%",
+          "Short Circuit Current(lsc) | Short Circuit Current(lsc/A)": "11.6±3%",
+          "Module Efficiency(%) | Module Efficiency(%)": "20.7",
+          "Voltage temperature coefficient (μVoc) | Voltage temperature coefficient (μVoc)": "-0.270%/°C",
+          "Current temperature coefficient (μlsc) | Current temperature coefficient (μlsc)": "+0.048%/°C",
+          "Power temperature coefficient (μPmpp) | Power temperature coefficient (μPmax)": "-0.350%/°C",
+          "Maximum System Voltage(V) | Maximum System Voltage(V)": "1500",
+          "Maximum reverse current(A) | Maximum Series Fuse Rating(A)": "20",
+          "Weight | Front Glass": "38kg",
+          "Thermal | Thermal power(W) | Panel area": "1210",
+          "Heat exchanger area | Pipe count": "2.17m²",
+          "Heat exchanger volume | Pipe length": "1.0L",
+          "Stagnation temperature | Operation temperature": "75.6°C",
+          "Optical efficiency aₒ": "0.582",
+          "Coefficient a₁": "10.8W/K/m²"
+        }
+      },
+      {
+        "name": "540W",
+        "model": "UNP-PVT-540W",
+        "price": "$222.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "CHARACTRISRICS | Nominal power | CHARACTRISRICS | Nominal power": "540W",
+          "Rated voltage (Vmpp) | Voltage at maximum Power（Vmp/v）": "41.76",
+          "Rated current (Impp) | Current at Maximum Power（Imp/A）": "12.93",
+          "Open Circuit Voltage(Voc) | Open Circuit Voltage(Voc/V)": "49.7±3%",
+          "Short Circuit Current(lsc) | Short Circuit Current(lsc/A)": "13.72±3%",
+          "Module Efficiency(%) | Module Efficiency(%)": "21.12",
+          "Voltage temperature coefficient (μVoc) | Voltage temperature coefficient (μVoc)": "-0.285%/°C",
+          "Current temperature coefficient (μlsc) | Current temperature coefficient (μlsc)": "+0.045%/°C",
+          "Power temperature coefficient (μPmpp) | Power temperature coefficient (μPmax)": "-0.350%/°C",
+          "Maximum System Voltage(V) | Maximum System Voltage(V)": "1500",
+          "Maximum reverse current(A) | Maximum Series Fuse Rating(A)": "25",
+          "Weight | Front Glass": "45kg",
+          "Thermal | Thermal power(W) | Panel area": "1397",
+          "Heat exchanger area | Pipe count": "2.54m²",
+          "Heat exchanger volume | Pipe length": "1.1L",
+          "Stagnation temperature | Operation temperature": "75.6°C",
+          "Optical efficiency aₒ": "0.582",
+          "Coefficient a₁": "10.8W/K/m²"
+        }
+      },
+      {
+        "name": "700W",
+        "model": "UNP-PVT-700W",
+        "price": "$243.00",
+        "tags": [
+          "Factory EXW"
+        ],
+        "specs": {
+          "CHARACTRISRICS | Nominal power | CHARACTRISRICS | Nominal power": "700W",
+          "Rated voltage (Vmpp) | Voltage at maximum Power（Vmp/v）": "40.58",
+          "Rated current (Impp) | Current at Maximum Power（Imp/A）": "17.25",
+          "Open Circuit Voltage(Voc) | Open Circuit Voltage(Voc/V)": "48.28",
+          "Short Circuit Current(lsc) | Short Circuit Current(lsc/A)": "18.3",
+          "Module Efficiency(%) | Module Efficiency(%)": "22.5",
+          "Voltage temperature coefficient (μVoc) | Voltage temperature coefficient (μVoc)": "-0.240%/°C",
+          "Current temperature coefficient (μlsc) | Current temperature coefficient (μlsc)": "+0.042%/°C",
+          "Power temperature coefficient (μPmpp) | Power temperature coefficient (μPmax)": "-0.290%/°C",
+          "Maximum System Voltage(V) | Maximum System Voltage(V)": "1500",
+          "Maximum reverse current(A) | Maximum Series Fuse Rating(A)": "30",
+          "Mechanical characterisrtics | Cell Type | Mechanical characterisrtics | No. of Cells": "132(6x22)",
+          "MaxWind Load/Snow Load | Thermal | Thermal Output(W)": "385",
+          "Thermal | Thermal power(W) | Panel area": "3.11m²",
+          "Heat exchanger area | Pipe count": "8",
+          "Heat exchanger volume | Pipe length": "2020mm",
+          "Max operating pressure | Flow rate": "1.3 L/min",
+          "Hydraulic inlet/outlet | Heating 100L(15-40°C)": "7.6hours"
+        }
+      }
+    ]
+  }
+]

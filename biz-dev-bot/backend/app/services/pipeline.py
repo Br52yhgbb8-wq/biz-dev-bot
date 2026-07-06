@@ -1,5 +1,7 @@
 import uuid
 from typing import Optional
+import csv
+import io
 
 from sqlalchemy import select, func
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -67,3 +69,30 @@ class PipelineService:
         await self.db.delete(pipeline)
         await self.db.commit()
         return True
+
+    async def export_csv(self) -> str:
+        """Export all pipelines as a CSV string."""
+        result = await self.db.execute(
+            select(Pipeline).order_by(Pipeline.created_at.desc())
+        )
+        pipelines = result.scalars().all()
+
+        output = io.StringIO()
+        writer = csv.writer(output)
+        writer.writerow([
+            "contact_id", "stage", "deal_value", "probability",
+            "expected_close_date", "owner_id", "created_at",
+        ])
+
+        for p in pipelines:
+            writer.writerow([
+                str(p.contact_id),
+                p.stage,
+                str(p.deal_value or ""),
+                p.probability or "",
+                str(p.expected_close_date or ""),
+                p.owner_id or "",
+                p.created_at.isoformat() if p.created_at else "",
+            ])
+
+        return output.getvalue()

@@ -1,5 +1,8 @@
 import uuid
-from typing import Optional
+from typing import List, Optional
+import csv
+import io
+import uuid
 
 from sqlalchemy import select, func
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -74,3 +77,114 @@ class ContactService:
         await self.db.delete(contact)
         await self.db.commit()
         return True
+
+    async def import_csv(self, csv_content: str, delimiter: str = ",") -> dict:
+        """Import contacts from a CSV string.
+
+        Expected columns (header row): name, company, title, email, phone,
+        source, tags, notes. Only 'name' is required.
+
+        Returns: {'imported': N, 'skipped': N, 'errors': [str]}
+        """
+        reader = csv.DictReader(io.StringIO(csv_content), delimiter=delimiter)
+        imported = 0
+        skipped = 0
+        errors = []
+
+        for row_num, row in enumerate(reader, start=2):
+            name = (row.get("name") or "").strip()
+            if not name:
+                skipped += 1
+                errors.append(f"Row {row_num}: missing name, skipped")
+                continue
+
+            tags = row.get("tags", "")
+            tags_list = [t.strip() for t in tags.split(",") if t.strip()] if tags else []
+
+            contact = Contact(
+                name=name,
+                company=(row.get("company") or "").strip() or None,
+                title=(row.get("title") or "").strip() or None,
+                email=(row.get("email") or "").strip() or None,
+                phone=(row.get("phone") or "").strip() or None,
+                source=(row.get("source") or "").strip() or "import",
+                tags=tags_list,
+                notes=(row.get("notes") or "").strip() or None,
+            )
+            self.db.add(contact)
+            imported += 1
+
+        await self.db.commit()
+        return {"imported": imported, "skipped": skipped, "errors": errors}
+
+    async def export_csv(self) -> str:
+        """Export all contacts as a CSV string."""
+        result = await self.db.execute(select(Contact).order_by(Contact.created_at.desc()))
+        contacts = result.scalars().all()
+
+        output = io.StringIO()
+        writer = csv.writer(output)
+        writer.writerow(["name", "company", "title", "email", "phone", "source", "tags", "notes", "created_at"])
+
+        for c in contacts:
+            writer.writerow([
+                c.name,
+                c.company or "",
+                c.title or "",
+                c.email or "",
+                c.phone or "",
+                c.source,
+                ", ".join(c.tags or []),
+                c.notes or "",
+                c.created_at.isoformat() if c.created_at else "",
+            ])
+
+        return output.getvalue()
+    async def batch_tag(self, contact_ids: List[uuid.UUID], tags: List[str], action: str = "add") -> dict:
+        """Add or remove tags to multiple contacts at once."""
+        count = 0
+        for cid in contact_ids:
+            contact = await self.get(cid)
+            if not contact:
+                continue
+            current_tags = contact.tags or []
+            if action == "add":
+                new_tags = list(set(current_tags + tags))
+            else:
+                new_tags = [t for t in current_tags if t not in tags]
+            contact.tags = new_tags
+            count += 1
+        await self.db.commit()
+        return {"success": True, "count": count, "message": f"Updated tags for {count} contact(s)"}
+
+    async def batch_delete(self, contact_ids: List[uuid.UUID]) -> dict:
+        """Delete multiple contacts at once."""
+        count = 0
+        for cid in contact_ids:
+            contact = await self.get(cid)
+            if not contact:
+                continue
+            await self.db.delete(contact)
+            count += 1
+        await self.db.commit()
+        return {"success": True, "count": count, "message": f"Deleted {count} contact(s)"}
+
+    async def batch_export_selected(self, contact_ids: List[uuid.UUID]) -> str:
+        """Export selected contacts as CSV string."""
+        contacts = []
+        for cid in contact_ids:
+            contact = await self.get(cid)
+            if contact:
+                contacts.append(contact)
+
+        import csv, io
+        output = io.StringIO()
+        writer = csv.writer(output)
+        writer.writerow(["name", "company", "title", "email", "phone", "source", "tags", "notes", "created_at"])
+        for c in contacts:
+            writer.writerow([
+                c.name, c.company or "", c.title or "", c.email or "",
+                c.phone or "", c.source, ", ".join(c.tags or []),
+                c.notes or "", c.created_at.isoformat() if c.created_at else "",
+            ])
+        return output.getvalue()

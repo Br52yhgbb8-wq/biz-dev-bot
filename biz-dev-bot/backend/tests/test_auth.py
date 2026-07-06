@@ -1,5 +1,25 @@
+"""Additional tests for auth endpoints: profile, invite code."""
+
 import pytest
 from httpx import AsyncClient
+
+
+@pytest.mark.asyncio
+async def test_profile(client: AsyncClient, auth_headers: dict):
+    resp = await client.get("/api/auth/profile", headers=auth_headers)
+    assert resp.status_code == 200
+    data = resp.json()
+    assert data["username"] == "test"
+    assert "role" in data
+
+
+@pytest.mark.asyncio
+async def test_profile_unauthorized(client: AsyncClient):
+    resp = await client.get("/api/auth/profile")
+    assert resp.status_code == 403
+
+
+@pytest.mark.asyncio
 
 
 @pytest.mark.asyncio

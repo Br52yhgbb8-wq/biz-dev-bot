@@ -1,11 +1,22 @@
 version: "3.9"
 
+x-common-env: &common-env
+  SECRET_KEY: "${SECRET_KEY:?SECRET_KEY is required. Generate one with: openssl rand -hex 32}"
+  ALGORITHM: "HS256"
+  ACCESS_TOKEN_EXPIRE_MINUTES: "120"
+  DEBUG: "false"
+  DEV_MODE: "false"
+  INVITE_CODE: "${INVITE_CODE:-}"
+  DISABLE_DOCS: "true"
+  # DEEPSEEK_API_KEY: "${DEEPSEEK_API_KEY}"   # 从 .env 读取
+  # LLM_ENABLED: "true"
+
 services:
   db:
     image: postgres:16-alpine
     environment:
       POSTGRES_USER: bizdev
-      POSTGRES_PASSWORD: bizdev
+      POSTGRES_PASSWORD: "${DB_PASSWORD:-bizdev}"
       POSTGRES_DB: bizdev
     ports:
       - "5432:5432"
@@ -23,22 +34,31 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    ports:
-      - "8000:8000"
+    expose:
+      - "8000"
     environment:
-      APP_NAME: "Biz Dev Bot"
-      DEBUG: "false"
-      DATABASE_URL: "postgresql+asyncpg://bizdev:bizdev@db:5432/bizdev"
-      SECRET_KEY: "${SECRET_KEY:-change-me-in-production}"
-      ALGORITHM: "HS256"
-      ACCESS_TOKEN_EXPIRE_MINUTES: "1440"
+      <<: *common-env
+      APP_NAME: "Mercury"
+      DATABASE_URL: "postgresql+asyncpg://bizdev:${DB_PASSWORD:-bizdev}@db:5432/bizdev"
+      # ── Hermes AI Agent ──
+      LLM_ENABLED: "${LLM_ENABLED:-true}"
+      DEEPSEEK_API_KEY: "${DEEPSEEK_API_KEY:-}"
+      HERMES_ALLOWED_ORIGINS: "${HERMES_ALLOWED_ORIGINS:-}"
+      HERMES_DAILY_TOKEN_BUDGET: "${HERMES_DAILY_TOKEN_BUDGET:-1000000}"
+      HERMES_RATE_LIMIT_PER_IP: "${HERMES_RATE_LIMIT_PER_IP:-30}"
     depends_on:
       db:
         condition: service_healthy
     volumes:
-      - ./backend:/app
       - gmail_creds:/app/gmail_credentials.json
+      - gmail_tokens:/app/gmail_token.pickle
+      - linkedin_profile:/app/linkedin_profile
     restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
       interval: 30s
@@ -50,15 +70,43 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    ports:
-      - "3000:3000"
+    expose:
+      - "3000"
     environment:
       NODE_ENV: "production"
-      NEXT_PUBLIC_API_URL: "http://localhost:8000"
+      NEXT_PUBLIC_API_URL: ""  # same-origin via nginx proxy
     depends_on:
       - api
     restart: unless-stopped
 
+  nginx:
+    image: nginx:1.27-alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - nginx_ssl:/etc/nginx/ssl
+    depends_on:
+      - api
+      - frontend
+    restart: unless-stopped
+
+  certbot:
+    image: certbot/certbot:v2
+    volumes:
+      - nginx_ssl:/etc/letsencrypt
+    entrypoint: "/bin/sh -c 'trap exit TERM; while true; do certbot renew --quiet; sleep 43200 & wait $${!}; done'"
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
 volumes:
   pgdata:
   gmail_creds:
+  gmail_tokens:
+  linkedin_profile:
+  nginx_ssl:

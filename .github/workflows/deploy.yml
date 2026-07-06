@@ -26,6 +26,9 @@ jobs:
             
             echo "=== Rebuilding and restarting ==="
             docker compose up --build -d
+
+            echo "=== Running database migrations ==="
+            docker compose exec -T api alembic upgrade head
             
             echo "=== Cleaning up old images ==="
             docker image prune -f

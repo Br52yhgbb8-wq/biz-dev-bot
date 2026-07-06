@@ -24,3 +24,60 @@
     --radius: 0.5rem;
   }
 }
+
+/* ── Dark Mode (softer palette, reduced black saturation) ── */
+.dark {
+  --background: 240 4% 12%;
+  --foreground: 240 6% 93%;
+  --card: 240 3% 16%;
+  --card-foreground: 240 6% 93%;
+  --primary: 211 100% 60%;
+  --primary-foreground: 240 6% 97%;
+  --secondary: 240 3% 19%;
+  --secondary-foreground: 240 6% 88%;
+  --muted: 240 3% 19%;
+  --muted-foreground: 240 2% 62%;
+  --accent: 240 3% 19%;
+  --accent-foreground: 240 6% 88%;
+  --destructive: 0 70% 50%;
+  --destructive-foreground: 240 6% 88%;
+  --border: 240 2% 24%;
+  --input: 240 2% 24%;
+  --ring: 211 100% 60%;
+}
+
+/* Structural dark mode overrides — softer Apple-style dark gray palette */
+.dark .h-screen { background-color: #1b1b20; }
+.dark aside,
+.dark .bg-white,
+.dark [class*="bg-white"],
+.dark .fixed.inset-0.z-30 > .absolute.left-0,
+.dark .fixed.inset-0.z-30 > div:nth-child(2) {
+  background-color: #1b1b20;
+}
+.dark .bg-\[#f2f2f7\] { background-color: #28282e; }
+.dark .bg-\[#f5f5f7\] { background-color: #33333a; }
+.dark .bg-\[#f9f9fb\] { background-color: #33333a; }
+.dark .hover\:bg-\[#f5f5f7\]:hover { background-color: #33333a; }
+.dark .hover\:bg-\[#f9f9fb\]:hover { background-color: #33333a; }
+.dark .hover\:bg-\[#ebebed\]:hover { background-color: #33333a; }
+.dark .text-\[#1d1d1f\] { color: #f0f0f5; }
+.dark .text-\[#86868b\] { color: #9a9aa0; }
+.dark .text-\[#c7c7cc\] { color: #66666e; }
+.dark .border-\[#E5E5EA\] { border-color: #3a3a42; }
+.dark .border-\[#f2f2f7\] { border-color: #3a3a42; }
+.dark .divide-\[#f2f2f7\] > * { border-color: #3a3a42; }
+.dark .divide-\[#f2f2f7\] > * { border-color: #38383a; }
+.dark .shadow-\[0_1px_4px_rgba\(0\2c 0\2c 0\2c 0.06\)\] { box-shadow: 0 1px 4px rgba(0,0,0,0.3); }
+.dark .shadow-lg { box-shadow: 0 4px 24px rgba(0,0,0,0.5) !important; }
+.dark .shadow-\[1px_0_8px_rgba\(0\2c 0\2c 0\2c 0.04\)\] { box-shadow: 1px 0 8px rgba(0,0,0,0.3); }
+
+/* Tailwind dark model support */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    color-scheme: dark;
+  }
+}
+:root.dark {
+  color-scheme: dark;
+}

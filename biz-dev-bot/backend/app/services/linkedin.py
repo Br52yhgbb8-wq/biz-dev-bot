@@ -2,6 +2,10 @@ import asyncio
 import os
 import random
 from typing import Optional
+import logging
+
+from app.rate_limiter.limiter import get_linkedin_limiter
+
 
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
@@ -15,7 +19,7 @@ except ImportError:
     PLAYWRIGHT_AVAILABLE = False
 
 
-PROFILE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "linkedin_profile")
+PROFILE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "linkedin_profile")
 
 
 class LinkedInBrowser:
@@ -89,6 +93,8 @@ class LinkedInBrowser:
         """Search LinkedIn for people by keywords."""
         if not self._running or not self._page:
             raise RuntimeError("Browser not running. Call /api/linkedin/connect first.")
+        await get_linkedin_limiter().consume()
+        logger.debug("LinkedIn search: %s (location=%s limit=%d)", keywords, location or "", limit)
 
         search_url = f"https://www.linkedin.com/search/results/people/?keywords={keywords}"
         if location:
@@ -132,6 +138,9 @@ class LinkedInBrowser:
         """Extract detailed profile data from a LinkedIn profile page."""
         if not self._page:
             raise RuntimeError("Browser not running")
+        # Wait for a rate-limit token before navigating
+        await get_linkedin_limiter().consume()
+        logger.debug("LinkedIn profile fetch: %s", profile_url)
 
         await self._page.goto(profile_url, wait_until="networkidle")
         await self._random_delay(3, 5)
@@ -180,6 +189,8 @@ class LinkedInBrowser:
         return profile
 
     async def export_to_crm(self, results: list[dict], db: AsyncSession) -> dict:
+        await get_linkedin_limiter().consume()
+        logger.debug("LinkedIn export to CRM: %d contacts", len(results))
         """Import LinkedIn search results as CRM contacts."""
         imported = 0
         skipped = 0

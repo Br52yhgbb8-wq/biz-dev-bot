@@ -1,5 +1,6 @@
 import uuid
 from datetime import datetime, timedelta, timezone
+from datetime import date as date_type
 from typing import Optional
 
 from sqlalchemy import select, func
@@ -76,6 +77,24 @@ class ActivityService:
             .limit(limit)
         )
         return list(result.scalars().all()), total
+
+    async def list_by_date_range(
+        self,
+        date_from: datetime,
+        date_to: datetime,
+        activity_type: Optional[str] = None,
+    ) -> list[Activity]:
+        """List activities within a date range, for calendar view."""
+        query = select(Activity).where(
+            Activity.created_at >= date_from,
+            Activity.created_at <= date_to,
+        )
+        if activity_type:
+            query = query.where(Activity.type == activity_type)
+        result = await self.db.execute(
+            query.order_by(Activity.created_at.asc())
+        )
+        return list(result.scalars().all())
 
     async def update(
         self, activity_id: uuid.UUID, data: ActivityUpdate

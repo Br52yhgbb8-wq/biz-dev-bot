@@ -1,31 +1,27 @@
-# Backend
-backend/__pycache__/
-backend/*.pyc
-backend/.pytest_cache/
-backend/*.db
-backend/gmail_credentials.json
-backend/token.json
-backend/.env
+ # Backend
+ biz-dev-bot/backend/__pycache__/
+ biz-dev-bot/backend/*.pyc
+ biz-dev-bot/backend/.pytest_cache/
+ biz-dev-bot/backend/*.db
+ biz-dev-bot/backend/gmail_credentials.json
+ biz-dev-bot/backend/token.json
+ biz-dev-bot/backend/.env
+ biz-dev-bot/backend/uploads/
 
-# Frontend
-frontend/.next/
-frontend/node_modules/
-frontend/*.tsbuildinfo
-frontend/out/
-frontend/.pnpm-store/
+ # Frontend
+ biz-dev-bot/frontend/.next/
+ biz-dev-bot/frontend/node_modules/
+ biz-dev-bot/frontend/*.tsbuildinfo
+ biz-dev-bot/frontend/out/
+ biz-dev-bot/frontend/.pnpm-store/
 
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
+ # IDE
+ .idea/
+ .vscode/
+ *.swp
+ *.swo
+ *~
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Unused top-level entries (legacy)
-/app/
-/outputs/
-/work/
+ # OS
+ .DS_Store
+ Thumbs.db

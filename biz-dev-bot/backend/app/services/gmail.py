@@ -14,6 +14,9 @@ from google_auth_oauthlib.flow import Flow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
+import time
+from app.rate_limiter.limiter import get_gmail_limiter
+from app.rate_limiter.retry import retry_sync, is_retryable_error
 from app.config import settings
 
 
@@ -109,6 +112,9 @@ class GmailService:
     def send_email(self, to: list[str], subject: str, body_text: str,
                    cc: Optional[list[str]] = None, body_html: Optional[str] = None) -> dict:
         """Send an email via Gmail API."""
+        # Rate-limit gate — block until a token is available
+        while not get_gmail_limiter().try_consume():
+            time.sleep(0.5)
         service = self._build_service()
         message = MIMEText(body_text, "plain" if not body_html else "html", "utf-8")
         message["To"] = ", ".join(to)
@@ -126,8 +132,10 @@ class GmailService:
             "label_ids": sent.get("labelIds", []),
         }
 
-    def list_threads(self, max_results: int = 20, query: str = "") -> list[dict]:
+    def list_threads(self, max_results: int = 15, query: str = "") -> list[dict]:
         """List Gmail threads (inbox)."""
+        while not get_gmail_limiter().try_consume():
+            time.sleep(0.5)
         service = self._build_service()
         results = service.users().threads().list(
             userId="me", maxResults=max_results, q=query
@@ -156,6 +164,8 @@ class GmailService:
 
     def get_thread(self, thread_id: str) -> dict:
         """Get full thread details including all messages."""
+        while not get_gmail_limiter().try_consume():
+            time.sleep(0.5)
         service = self._build_service()
         thread = service.users().threads().get(userId="me", id=thread_id).execute()
         messages = []
@@ -181,11 +191,30 @@ class GmailService:
             })
         return {"id": thread_id, "messages": messages}
 
-    def sync_inbox(self, db: AsyncSession, max_results: int = 50) -> dict:
+    def sync_inbox(self, db: AsyncSession, max_results: int = 30) -> dict:
         """Sync Gmail inbox to local database.
 
         This is a stub - full implementation requires async execution.
         For now, returns threads that would be synced.
         """
+        while not get_gmail_limiter().try_consume():
+            time.sleep(0.5)
         threads = self.list_threads(max_results=max_results, query="in:inbox")
         return {"synced": len(threads), "threads": threads}
+    # ── Rate-limited + retry-aware convenience wrappers ──────────
+
+    def send_email_safe(self, to: list[str], subject: str, body_text: str,
+                        cc: Optional[list[str]] = None,
+                        body_html: Optional[str] = None) -> dict:
+        """Rate-limited + retry-aware send."""
+        return retry_sync(self.send_email, to, subject, body_text,
+                          cc=cc, body_html=body_html)
+
+    def list_threads_safe(self, max_results: int = 15,
+                          query: str = "") -> list[dict]:
+        """Rate-limited + retry-aware thread list."""
+        return retry_sync(self.list_threads, max_results, query=query)
+
+    def get_thread_safe(self, thread_id: str) -> dict:
+        """Rate-limited + retry-aware thread detail."""
+        return retry_sync(self.get_thread, thread_id)

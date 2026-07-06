@@ -1,11 +1,13 @@
 {
-  "name": "biz-dev-bot-frontend",
+  "name": "mercury-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "extract-products": "cd .. && python3 scripts/extract_uniepu_products.py",
+    "create-sample": "python3 scripts/create_sample_excel.py && npm run extract-products"
   },
   "dependencies": {
     "next": "^14.2.0",
