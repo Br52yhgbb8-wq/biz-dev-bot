@@ -57,20 +57,18 @@ export default function UniepuLayout({
   return (
     <>
       {/* Google Analytics */}
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-YCPTESCBDB"
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-YCPTESCBDB"></script>
+      <script>
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
           gtag('config', 'G-YCPTESCBDB');
         `}
-      </Script>
+      </script>
       {children}
       {/* JSON-LD Product structured data for SEO */}
+
       <Script id="product-structured-data" type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify({
