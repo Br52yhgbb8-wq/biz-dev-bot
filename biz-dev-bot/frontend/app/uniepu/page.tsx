@@ -17,7 +17,7 @@ const CatalogSection = dynamic(() => import("@/components/catalog-section"), {
 })
 
 export default function UniepuPage() {
-  const [lang, setLang] = useState<Lang>("zh")
+  const [lang, setLang] = useState<Lang>("en")
   const [showLang, setShowLang] = useState(false)
   const [chatOpen, setChatOpen] = useState(false)
   const [chatMessage, setChatMessage] = useState("")

@@ -57,15 +57,6 @@ export default function UniepuLayout({
   return (
     <>
       {/* Google Analytics */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-YCPTESCBDB"></script>
-      <script>
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-YCPTESCBDB');
-        `}
-      </script>
       {children}
       {/* JSON-LD Product structured data for SEO */}
 

@@ -1,10 +1,11 @@
 import type { Metadata } from "next"
+import Script from "next/script"
 import "./globals.css"
 
 export const metadata: Metadata = {
   title: "Mercury",
   description: "Business Development Automation Platform",
-  metadataBase: new URL("https://www.uniepu.tech"),
+  metadataBase: new URL("https://uniepu.tech"),
   manifest: "/manifest.json",
   other: {
     "theme-color": "#7A899C",
@@ -22,7 +23,20 @@ export default function RootLayout({
 }) {
   return (
     <html lang="zh-CN">
-      <body>{children}</body>
+      <body>{children}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-YCPTESCBDB"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-YCPTESCBDB');
+          `}
+        </Script>
+      </body>
     </html>
   )
 }
